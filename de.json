@@ -1,0 +1,338 @@
+{
+  "nav": {
+    "works": "Werke",
+    "series": "Serien",
+    "about": "Über",
+    "exhibitions": "Ausstellungen",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "eyebrow": "Zeitgenössische Künstlerin",
+    "title": "Zazaa Ganbold",
+    "text": "Zeitgenössische symbolisch figurative Malerei über Identität, Bewusstsein, Natur und die sichtbaren sowie unsichtbaren Dimensionen menschlicher Erfahrung.",
+    "button": "Werke ansehen"
+  },
+  "intro": "Zazaa Ganbold ist eine in der Mongolei geborene zeitgenössische Künstlerin, die zwischen Deutschland, Portugal und der Mongolei arbeitet. Ihre Praxis umfasst Malerei, Mischtechnik, digitale Arbeiten und Zeichnung. Durch vielschichtige symbolische Bildwelten erforscht sie den menschlichen Körper als Ort von Erinnerung, Transformation und innerem Bewusstsein.",
+  "sections": {
+    "worksEyebrow": "Ausgewählte Werke",
+    "worksTitle": "Malerei und Arbeiten auf Papier",
+    "seriesEyebrow": "Serien",
+    "seriesTitle": "Kuratierte Werkgruppen",
+    "aboutEyebrow": "Über",
+    "aboutTitle": "Biografie",
+    "cvEyebrow": "CV",
+    "cvTitle": "Ausgewählte Ausstellungen",
+    "contactEyebrow": "Kontakt",
+    "contactTitle": "Deutschland · Portugal · Mongolei"
+  },
+  "about": [
+    "Zazaa Ganbold ist eine in der Mongolei geborene zeitgenössische Künstlerin, die zwischen Deutschland, Portugal und der Mongolei arbeitet. Ihre multidisziplinäre Praxis umfasst Malerei, Collage, digitale Medien und textile Arbeiten. Ihr Werk untersucht das Verhältnis zwischen Sichtbarem und Unsichtbarem, Materiellem und Spirituellem sowie die fortwährende Transformation menschlichen Bewusstseins.",
+    "Der menschliche Körper erscheint bei Ganbold nicht als bloßes Darstellungsmotiv, sondern als lebendiger Träger von Erinnerung, Emotion und symbolischem Wissen. Figuren lösen sich in Tiere, Pflanzen, Masken und archetypische Formen auf. So entstehen Bildräume, in denen persönliche Erfahrung, kollektive Erinnerung und kulturelle Vorstellungskraft ineinandergreifen.",
+    "Verwurzelt in mongolischer Kosmologie und nomadischen Vorstellungen von Verbundenheit, zugleich geprägt von europäischer Gegenwartskunst und psychologischem Denken, verwandelt ihre Arbeit kulturelle Bezüge in eine offene symbolische Sprache. Träume, Intuition und Mythologie werden zu Formen des Verstehens jenseits rein rationaler Erklärung."
+  ],
+  "contactText": "Für Anfragen zu Werken, Ausstellungen, Aufträgen oder Kooperationen nehmen Sie bitte Kontakt auf.",
+  "educationTitle": "Ausbildung",
+  "education": [
+    "1994 bis 1999, Bachelor of Arts in Malerei und Grafikdesign, Mongolische Universität für Kunst und Kultur, Ulaanbaatar.",
+    "2000 bis 2002, eigenständige Forschungsreisen nach China, Korea, Japan und Indien mit Schwerpunkt auf zeitgenössischer Kunst und traditionellen asiatischen Kulturpraktiken."
+  ],
+  "languagesTitle": "Sprachen",
+  "languages": "Mongolisch Muttersprache, Deutsch fließend, Englisch Mittelstufe.",
+  "footerArtist": "Zeitgenössische Künstlerin",
+  "works": [
+    {
+      "slug": "bi-ba-bid",
+      "title": "Bi ba Bid (Ich und Wir)",
+      "year": "2026",
+      "medium": "Acryl auf Leinwand",
+      "size": "150 × 100 cm",
+      "status": "",
+      "image": "assets/images/bi-ba-bid.jpg",
+      "series": "Identität und Bewusstsein",
+      "seriesKey": "identity"
+    },
+    {
+      "slug": "dual-essence",
+      "title": "Dual Essence",
+      "year": "2025",
+      "medium": "Acryl und Mischtechnik auf Leinwand",
+      "size": "100 × 100 cm",
+      "status": "Privatsammlung",
+      "image": "assets/images/dual-essence.jpg",
+      "series": "Identität und Bewusstsein",
+      "seriesKey": "identity"
+    },
+    {
+      "slug": "dual-identity",
+      "title": "Dual Identity",
+      "year": "2024",
+      "medium": "Acryl auf Leinwand",
+      "size": "120 × 160 cm",
+      "status": "Sammlung, Vietnam",
+      "image": "assets/images/dual-identity.jpg",
+      "series": "Identität und Bewusstsein",
+      "seriesKey": "identity"
+    },
+    {
+      "slug": "observation",
+      "title": "Observation",
+      "year": "2024",
+      "medium": "Acryl, Collage und Mischtechnik auf Leinwand",
+      "size": "70 × 120 cm",
+      "status": "Privatsammlung",
+      "image": "assets/images/observation.jpg",
+      "series": "Identität und Bewusstsein",
+      "seriesKey": "identity"
+    },
+    {
+      "slug": "sisters",
+      "title": "Sisters",
+      "year": "2024",
+      "medium": "Acryl auf Leinwand",
+      "size": "80 × 100 cm",
+      "status": "Privatsammlung",
+      "image": "assets/images/sisters.jpg",
+      "series": "Identität und Bewusstsein",
+      "seriesKey": "identity"
+    },
+    {
+      "slug": "desire-boundaries",
+      "title": "Desire and Boundaries",
+      "year": "2024",
+      "medium": "Acryl und Öl auf Leinwand",
+      "size": "100 × 80 cm",
+      "status": "Verfügbar",
+      "image": "assets/images/desire-boundaries.jpg",
+      "series": "Identität und Bewusstsein",
+      "seriesKey": "identity"
+    },
+    {
+      "slug": "between-worlds",
+      "title": "Between Worlds",
+      "year": "2024",
+      "medium": "Acryl und Öl auf Leinwand",
+      "size": "70 × 70 cm",
+      "status": "Verfügbar",
+      "image": "assets/images/between-worlds.jpg",
+      "series": "Identität und Bewusstsein",
+      "seriesKey": "identity"
+    },
+    {
+      "slug": "four-seasons",
+      "title": "Four Seasons",
+      "year": "2025",
+      "medium": "Öl und Acryl auf Leinwand",
+      "size": "4 panels, each 40 × 100 cm. Overall installation 160 × 100 cm",
+      "status": "Verfügbar",
+      "image": "assets/images/four-seasons.jpg",
+      "series": "Natur und spirituelle Transformation",
+      "seriesKey": "nature"
+    },
+    {
+      "slug": "natural-cycles",
+      "title": "Natural Cycles",
+      "year": "2020",
+      "medium": "Acryl auf Leinwand",
+      "size": "100 × 100 cm",
+      "status": "Privatsammlung",
+      "image": "assets/images/natural-cycles.jpg",
+      "series": "Natur und spirituelle Transformation",
+      "seriesKey": "nature"
+    },
+    {
+      "slug": "cycle-of-life",
+      "title": "Cycle of Life",
+      "year": "2023",
+      "medium": "Acryl und Öl auf Leinwand",
+      "size": "100 × 100 cm",
+      "status": "Privatsammlung",
+      "image": "assets/images/cycle-of-life.jpg",
+      "series": "Natur und spirituelle Transformation",
+      "seriesKey": "nature"
+    },
+    {
+      "slug": "amar-amgalan",
+      "title": "Amar Amgalan (Frieden)",
+      "year": "2024",
+      "medium": "Acryl und Öl auf Leinwand",
+      "size": "45 × 75 cm",
+      "status": "Privatsammlung",
+      "image": "assets/images/amar-amgalan.jpg",
+      "series": "Natur und spirituelle Transformation",
+      "seriesKey": "nature"
+    },
+    {
+      "slug": "deep-flight",
+      "title": "Gün Develt (Tiefer Flug)",
+      "year": "2024",
+      "medium": "Acryl und Öl auf Leinwand",
+      "size": "60 × 80 cm",
+      "status": "Privatsammlung",
+      "image": "assets/images/deep-flight.jpg",
+      "series": "Natur und spirituelle Transformation",
+      "seriesKey": "nature"
+    },
+    {
+      "slug": "forest-dream",
+      "title": "Forest Dream",
+      "year": "2024",
+      "medium": "Acryl auf Leinwand",
+      "size": "60 × 70 cm",
+      "status": "Privatsammlung",
+      "image": "assets/images/forest-dream.jpg",
+      "series": "Natur und spirituelle Transformation",
+      "seriesKey": "nature"
+    },
+    {
+      "slug": "ai",
+      "title": "AI",
+      "year": "2018",
+      "medium": "Acryl und Öl auf Leinwand",
+      "size": "110 × 160 cm",
+      "status": "Verfügbar",
+      "image": "assets/images/ai.jpg",
+      "series": "Technologie und Bewusstsein",
+      "seriesKey": "technology"
+    },
+    {
+      "slug": "big-data",
+      "title": "Big Data",
+      "year": "2018",
+      "medium": "Acryl auf Leinwand",
+      "size": "60 × 80 cm",
+      "status": "",
+      "image": "assets/images/big-data.jpg",
+      "series": "Technologie und Bewusstsein",
+      "seriesKey": "technology"
+    },
+    {
+      "slug": "free-will-illusion",
+      "title": "The Free Will and Illusion",
+      "year": "2018",
+      "medium": "Acryl und Öl auf Leinwand",
+      "size": "120 × 140 cm",
+      "status": "Verfügbar",
+      "image": "assets/images/free-will-illusion.jpg",
+      "series": "Technologie und Bewusstsein",
+      "seriesKey": "technology"
+    },
+    {
+      "slug": "beyond-reality",
+      "title": "Beyond Reality",
+      "year": "2022",
+      "medium": "Acryl auf Leinwand",
+      "size": "120 × 100 cm",
+      "status": "",
+      "image": "assets/images/beyond-reality.jpg",
+      "series": "Existenzielle Bildräume",
+      "seriesKey": "narratives"
+    },
+    {
+      "slug": "estimate",
+      "title": "Estimate",
+      "year": "2018",
+      "medium": "Öl auf Leinwand",
+      "size": "80 × 80 cm",
+      "status": "",
+      "image": "assets/images/estimate.jpg",
+      "series": "Existenzielle Bildräume",
+      "seriesKey": "narratives"
+    },
+    {
+      "slug": "spirit-of-the-wild",
+      "title": "Spirit of the Wild",
+      "year": "2019",
+      "medium": "Digitale Mischtechnik auf Papier",
+      "size": "30 × 40 cm",
+      "status": "Verfügbar",
+      "image": "assets/images/spirit-of-the-wild.jpg",
+      "series": "Digitale Arbeiten und Zeichnungen",
+      "seriesKey": "paper"
+    },
+    {
+      "slug": "human-pattern",
+      "title": "Human Pattern",
+      "year": "2019",
+      "medium": "Digitale Kunst, Mischtechnik auf Papier",
+      "size": "30 × 40 cm",
+      "status": "",
+      "image": "assets/images/human-pattern.jpg",
+      "series": "Digitale Arbeiten und Zeichnungen",
+      "seriesKey": "paper"
+    },
+    {
+      "slug": "portrait-drawing",
+      "title": "Portrait",
+      "year": "2015",
+      "medium": "Zeichnung und Mischtechnik auf Papier",
+      "size": "30 × 40 cm",
+      "status": "",
+      "image": "assets/images/portrait-drawing.jpg",
+      "series": "Digitale Arbeiten und Zeichnungen",
+      "seriesKey": "paper"
+    }
+  ],
+  "series": {
+    "identity": "Identität und Bewusstsein",
+    "nature": "Natur und spirituelle Transformation",
+    "technology": "Technologie und Bewusstsein",
+    "narratives": "Existenzielle Bildräume",
+    "paper": "Digitale Arbeiten und Zeichnungen"
+  },
+  "exhibitions": {
+    "soloTitle": "Ausgewählte Einzelausstellungen",
+    "groupTitle": "Ausgewählte Gruppenausstellungen und Projekte",
+    "solo": [
+      {
+        "year": "2024",
+        "text": "Desire and Limit, Khaan Bank Gallery, Ulaanbaatar, Mongolei"
+      },
+      {
+        "year": "2020",
+        "text": "Cycle of Nature, Vinogradov Gallery, Berlin, Deutschland"
+      },
+      {
+        "year": "2019",
+        "text": "Who Are We?, Ulaan Ger Gallery, Ulaanbaatar, Mongolei"
+      },
+      {
+        "year": "2017",
+        "text": "Four Seasons, Shangri La Art Gallery, Ulaanbaatar, Mongolei"
+      },
+      {
+        "year": "2013",
+        "text": "The Motion, Schiller Gallery, Leipzig, Deutschland"
+      }
+    ],
+    "group": [
+      {
+        "year": "2024",
+        "text": "Convergências, Kulturzentrum Lagoa, Algarve, Portugal"
+      },
+      {
+        "year": "2024",
+        "text": "AAmA, Aveiro Museum of Art, Aveiro, Portugal"
+      },
+      {
+        "year": "2023",
+        "text": "Hanoi Art Connection 6, Hanoi, Vietnam"
+      },
+      {
+        "year": "2023",
+        "text": "Hatyai International Artist Camp, Hat Yai, Thailand"
+      },
+      {
+        "year": "2020",
+        "text": "Liquid Lunch, BAS Gallery, Berlin, Deutschland"
+      },
+      {
+        "year": "2019",
+        "text": "Passage of Time, Internationale Ausstellung von Künstlerinnen, Ulaanbaatar, Mongolei"
+      },
+      {
+        "year": "2019",
+        "text": "Silk Road, Marco Polo International Cultural Event, Đakovo, Kroatien"
+      }
+    ]
+  }
+}

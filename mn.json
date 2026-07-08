@@ -1,0 +1,338 @@
+{
+  "nav": {
+    "works": "Бүтээлүүд",
+    "series": "Цуврал",
+    "about": "Тухай",
+    "exhibitions": "Үзэсгэлэн",
+    "contact": "Холбоо"
+  },
+  "hero": {
+    "eyebrow": "Орчин үеийн уран бүтээлч",
+    "title": "Зазаа Ганболд",
+    "text": "Өөрийгөө танихуй, ухамсар, байгаль болон хүний туршлагын харагдах ба үл харагдах хэмжээсүүдийг судалдаг бэлгэдэлт, дүрслэлт орчин үеийн уран зураг.",
+    "button": "Бүтээлүүд үзэх"
+  },
+  "intro": "Зазаа Ганболд нь Монголд төрсөн, Герман, Португал, Монголын хооронд ажиллаж уран бүтээлээ туурвидаг орчин үеийн уран бүтээлч юм. Түүний практик уран зураг, холимог техник, дижитал бүтээл болон зургийг хамардаг. Олон давхар бэлгэдэлт дүрслэлээр дамжуулан тэрээр хүний биеийг дурсамж, өөрчлөлт, дотоод ухамсрын орон зай хэмээн судалдаг.",
+  "sections": {
+    "worksEyebrow": "Сонгомол бүтээлүүд",
+    "worksTitle": "Уран зураг ба цаасан дээрх бүтээлүүд",
+    "seriesEyebrow": "Цуврал",
+    "seriesTitle": "Кураторчилсан бүтээлийн бүлгүүд",
+    "aboutEyebrow": "Тухай",
+    "aboutTitle": "Намтар",
+    "cvEyebrow": "CV",
+    "cvTitle": "Сонгомол үзэсгэлэн",
+    "contactEyebrow": "Холбоо",
+    "contactTitle": "Герман · Португал · Монгол"
+  },
+  "about": [
+    "Зазаа Ганболд нь Монголд төрсөн, Герман, Португал, Монголын хооронд ажиллаж уран бүтээлээ туурвидаг орчин үеийн уран бүтээлч юм. Түүний олон талт практик уран зураг, коллаж, дижитал медиа болон нэхмэл бүтээлүүдийг хамардаг. Түүний бүтээл харагдах ба үл харагдах ертөнц, материаллаг ба сүнслэг хэмжээс, хүний ухамсрын тасралтгүй өөрчлөлтийн харилцааг судалдаг.",
+    "Ганболд хүний биеийг зөвхөн дүрслэгдэх сэдэв бус, харин дурсамж, сэтгэл хөдлөл, бэлгэдлийн мэдлэгийг агуулсан амьд сав хэмээн авч үздэг. Дүрүүд амьтан, ургамал, баг, архетип хэлбэрүүдтэй уусан нэгдэж, хувь хүний туршлага, хамтын дурсамж, соёлын төсөөлөл огтлолцох дүрслэлийн орон зайг бий болгодог.",
+    "Монголын ертөнцийг үзэх үзэл, нүүдэлчдийн харилцан холбооны ойлголтоос улбаалж, Европын орчин үеийн урлаг болон сэтгэлзүйн сэтгэлгээтэй харилцан нөлөөлсөн түүний бүтээл соёлын эх сурвалжийг нээлттэй бэлгэдлийн хэл болгон хувиргадаг. Зүүд, зөн совин, домог нь зөвхөн рациональ тайлбараас цааш орших бодит байдлыг ойлгох арга болдог."
+  ],
+  "contactText": "Бүтээл, үзэсгэлэн, захиалга болон хамтын ажиллагааны талаар холбогдоно уу.",
+  "educationTitle": "Боловсрол",
+  "education": [
+    "1994 оноос 1999 он, Уран зураг ба график дизайны бакалавр, Монголын Соёл Урлагийн Их Сургууль, Улаанбаатар.",
+    "2000 оноос 2002 он, Хятад, Солонгос, Япон, Энэтхэгт орчин үеийн урлаг болон Азийн уламжлалт соёлын практикийг судалсан бие даасан судалгааны аяллууд."
+  ],
+  "languagesTitle": "Хэл",
+  "languages": "Монгол хэл эх хэл, Герман хэл чөлөөтэй, Англи хэл дунд түвшин.",
+  "footerArtist": "Орчин үеийн уран бүтээлч",
+  "works": [
+    {
+      "slug": "bi-ba-bid",
+      "title": "Би ба бид",
+      "year": "2026",
+      "medium": "Даавуун дээр акрил",
+      "size": "150 × 100 cm",
+      "status": "",
+      "image": "assets/images/bi-ba-bid.jpg",
+      "series": "Өөрийгөө танихуй ба ухамсар",
+      "seriesKey": "identity"
+    },
+    {
+      "slug": "dual-essence",
+      "title": "Dual Essence",
+      "year": "2025",
+      "medium": "Даавуун дээр акрил, холимог техник",
+      "size": "100 × 100 cm",
+      "status": "Хувийн цуглуулга",
+      "image": "assets/images/dual-essence.jpg",
+      "series": "Өөрийгөө танихуй ба ухамсар",
+      "seriesKey": "identity"
+    },
+    {
+      "slug": "dual-identity",
+      "title": "Dual Identity",
+      "year": "2024",
+      "medium": "Даавуун дээр акрил",
+      "size": "120 × 160 cm",
+      "status": "Вьетнам дахь цуглуулга",
+      "image": "assets/images/dual-identity.jpg",
+      "series": "Өөрийгөө танихуй ба ухамсар",
+      "seriesKey": "identity"
+    },
+    {
+      "slug": "observation",
+      "title": "Observation",
+      "year": "2024",
+      "medium": "Даавуун дээр акрил, коллаж, холимог техник",
+      "size": "70 × 120 cm",
+      "status": "Хувийн цуглуулга",
+      "image": "assets/images/observation.jpg",
+      "series": "Өөрийгөө танихуй ба ухамсар",
+      "seriesKey": "identity"
+    },
+    {
+      "slug": "sisters",
+      "title": "Sisters",
+      "year": "2024",
+      "medium": "Даавуун дээр акрил",
+      "size": "80 × 100 cm",
+      "status": "Хувийн цуглуулга",
+      "image": "assets/images/sisters.jpg",
+      "series": "Өөрийгөө танихуй ба ухамсар",
+      "seriesKey": "identity"
+    },
+    {
+      "slug": "desire-boundaries",
+      "title": "Desire and Boundaries",
+      "year": "2024",
+      "medium": "Даавуун дээр акрил, тос",
+      "size": "100 × 80 cm",
+      "status": "Боломжтой",
+      "image": "assets/images/desire-boundaries.jpg",
+      "series": "Өөрийгөө танихуй ба ухамсар",
+      "seriesKey": "identity"
+    },
+    {
+      "slug": "between-worlds",
+      "title": "Between Worlds",
+      "year": "2024",
+      "medium": "Даавуун дээр акрил, тос",
+      "size": "70 × 70 cm",
+      "status": "Боломжтой",
+      "image": "assets/images/between-worlds.jpg",
+      "series": "Өөрийгөө танихуй ба ухамсар",
+      "seriesKey": "identity"
+    },
+    {
+      "slug": "four-seasons",
+      "title": "Four Seasons",
+      "year": "2025",
+      "medium": "Даавуун дээр тос, акрил",
+      "size": "4 panels, each 40 × 100 cm. Overall installation 160 × 100 cm",
+      "status": "Боломжтой",
+      "image": "assets/images/four-seasons.jpg",
+      "series": "Байгаль ба сүнслэг өөрчлөлт",
+      "seriesKey": "nature"
+    },
+    {
+      "slug": "natural-cycles",
+      "title": "Natural Cycles",
+      "year": "2020",
+      "medium": "Даавуун дээр акрил",
+      "size": "100 × 100 cm",
+      "status": "Хувийн цуглуулга",
+      "image": "assets/images/natural-cycles.jpg",
+      "series": "Байгаль ба сүнслэг өөрчлөлт",
+      "seriesKey": "nature"
+    },
+    {
+      "slug": "cycle-of-life",
+      "title": "Cycle of Life",
+      "year": "2023",
+      "medium": "Даавуун дээр акрил, тос",
+      "size": "100 × 100 cm",
+      "status": "Хувийн цуглуулга",
+      "image": "assets/images/cycle-of-life.jpg",
+      "series": "Байгаль ба сүнслэг өөрчлөлт",
+      "seriesKey": "nature"
+    },
+    {
+      "slug": "amar-amgalan",
+      "title": "Амар амгалан",
+      "year": "2024",
+      "medium": "Даавуун дээр акрил, тос",
+      "size": "45 × 75 cm",
+      "status": "Хувийн цуглуулга",
+      "image": "assets/images/amar-amgalan.jpg",
+      "series": "Байгаль ба сүнслэг өөрчлөлт",
+      "seriesKey": "nature"
+    },
+    {
+      "slug": "deep-flight",
+      "title": "Гүн дэвэлт",
+      "year": "2024",
+      "medium": "Даавуун дээр акрил, тос",
+      "size": "60 × 80 cm",
+      "status": "Хувийн цуглуулга",
+      "image": "assets/images/deep-flight.jpg",
+      "series": "Байгаль ба сүнслэг өөрчлөлт",
+      "seriesKey": "nature"
+    },
+    {
+      "slug": "forest-dream",
+      "title": "Forest Dream",
+      "year": "2024",
+      "medium": "Даавуун дээр акрил",
+      "size": "60 × 70 cm",
+      "status": "Хувийн цуглуулга",
+      "image": "assets/images/forest-dream.jpg",
+      "series": "Байгаль ба сүнслэг өөрчлөлт",
+      "seriesKey": "nature"
+    },
+    {
+      "slug": "ai",
+      "title": "AI",
+      "year": "2018",
+      "medium": "Даавуун дээр акрил, тос",
+      "size": "110 × 160 cm",
+      "status": "Боломжтой",
+      "image": "assets/images/ai.jpg",
+      "series": "Технологи ба ухамсар",
+      "seriesKey": "technology"
+    },
+    {
+      "slug": "big-data",
+      "title": "Big Data",
+      "year": "2018",
+      "medium": "Даавуун дээр акрил",
+      "size": "60 × 80 cm",
+      "status": "",
+      "image": "assets/images/big-data.jpg",
+      "series": "Технологи ба ухамсар",
+      "seriesKey": "technology"
+    },
+    {
+      "slug": "free-will-illusion",
+      "title": "The Free Will and Illusion",
+      "year": "2018",
+      "medium": "Даавуун дээр акрил, тос",
+      "size": "120 × 140 cm",
+      "status": "Боломжтой",
+      "image": "assets/images/free-will-illusion.jpg",
+      "series": "Технологи ба ухамсар",
+      "seriesKey": "technology"
+    },
+    {
+      "slug": "beyond-reality",
+      "title": "Beyond Reality",
+      "year": "2022",
+      "medium": "Даавуун дээр акрил",
+      "size": "120 × 100 cm",
+      "status": "",
+      "image": "assets/images/beyond-reality.jpg",
+      "series": "Оршихуйн дүрслэлийн орон зай",
+      "seriesKey": "narratives"
+    },
+    {
+      "slug": "estimate",
+      "title": "Estimate",
+      "year": "2018",
+      "medium": "Даавуун дээр тос",
+      "size": "80 × 80 cm",
+      "status": "",
+      "image": "assets/images/estimate.jpg",
+      "series": "Оршихуйн дүрслэлийн орон зай",
+      "seriesKey": "narratives"
+    },
+    {
+      "slug": "spirit-of-the-wild",
+      "title": "Spirit of the Wild",
+      "year": "2019",
+      "medium": "Цаасан дээр дижитал холимог техник",
+      "size": "30 × 40 cm",
+      "status": "Боломжтой",
+      "image": "assets/images/spirit-of-the-wild.jpg",
+      "series": "Дижитал бүтээл ба зураг",
+      "seriesKey": "paper"
+    },
+    {
+      "slug": "human-pattern",
+      "title": "Human Pattern",
+      "year": "2019",
+      "medium": "Цаасан дээр дижитал урлаг, холимог техник",
+      "size": "30 × 40 cm",
+      "status": "",
+      "image": "assets/images/human-pattern.jpg",
+      "series": "Дижитал бүтээл ба зураг",
+      "seriesKey": "paper"
+    },
+    {
+      "slug": "portrait-drawing",
+      "title": "Portrait",
+      "year": "2015",
+      "medium": "Цаасан дээр зураг, холимог техник",
+      "size": "30 × 40 cm",
+      "status": "",
+      "image": "assets/images/portrait-drawing.jpg",
+      "series": "Дижитал бүтээл ба зураг",
+      "seriesKey": "paper"
+    }
+  ],
+  "series": {
+    "identity": "Өөрийгөө танихуй ба ухамсар",
+    "nature": "Байгаль ба сүнслэг өөрчлөлт",
+    "technology": "Технологи ба ухамсар",
+    "narratives": "Оршихуйн дүрслэлийн орон зай",
+    "paper": "Дижитал бүтээл ба зураг"
+  },
+  "exhibitions": {
+    "soloTitle": "Сонгомол бие даасан үзэсгэлэн",
+    "groupTitle": "Сонгомол хамтарсан үзэсгэлэн ба төслүүд",
+    "solo": [
+      {
+        "year": "2024",
+        "text": "Хүсэл ба хязгаар, Хаан Банк Галерей, Улаанбаатар, Монгол"
+      },
+      {
+        "year": "2020",
+        "text": "Cycle of Nature, Vinogradov Gallery, Берлин, Герман"
+      },
+      {
+        "year": "2019",
+        "text": "Бид хэн бэ?, Улаан гэр галерей, Улаанбаатар, Монгол"
+      },
+      {
+        "year": "2017",
+        "text": "Дөрвөн улирал, Шангри Ла арт галерей, Улаанбаатар, Монгол"
+      },
+      {
+        "year": "2013",
+        "text": "Хөдөлгөөн, Шиллер галерей, Лейпциг, Герман"
+      }
+    ],
+    "group": [
+      {
+        "year": "2024",
+        "text": "Convergências, Lagoa хотын Соёлын төв, Algarve, Португал"
+      },
+      {
+        "year": "2024",
+        "text": "AAmA, Aveiro хотын Урлагийн музей, Португал"
+      },
+      {
+        "year": "2023",
+        "text": "Hanoi Art Connection 6, Ханой, Вьетнам"
+      },
+      {
+        "year": "2023",
+        "text": "Hatyai International Artist Camp, Hat Yai, Тайланд"
+      },
+      {
+        "year": "2020",
+        "text": "Liquid Lunch, BAS Gallery, Берлин, Герман"
+      },
+      {
+        "year": "2019",
+        "text": "Passage of Time, олон улсын эмэгтэй уран бүтээлчдийн үзэсгэлэн, Улаанбаатар, Монгол"
+      },
+      {
+        "year": "2019",
+        "text": "Silk Road, Marco Polo олон улсын соёлын арга хэмжээ, Đakovo, Хорват"
+      }
+    ]
+  }
+}

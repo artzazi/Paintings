@@ -1,0 +1,338 @@
+{
+  "nav": {
+    "works": "Works",
+    "series": "Series",
+    "about": "About",
+    "exhibitions": "Exhibitions",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Contemporary Artist",
+    "title": "Zazaa Ganbold",
+    "text": "Contemporary symbolic figurative painting exploring identity, consciousness, nature and the visible and invisible dimensions of human experience.",
+    "button": "Explore the works"
+  },
+  "intro": "Zazaa Ganbold is a Mongolian born contemporary artist working across Germany, Portugal and Mongolia. Her practice spans painting, mixed media, digital works and drawing. Through layered symbolic imagery, she explores the human body as a site of memory, transformation and inner consciousness.",
+  "sections": {
+    "worksEyebrow": "Selected Works",
+    "worksTitle": "Paintings and Works on Paper",
+    "seriesEyebrow": "Series",
+    "seriesTitle": "Curated Work Groups",
+    "aboutEyebrow": "About",
+    "aboutTitle": "Biography",
+    "cvEyebrow": "CV",
+    "cvTitle": "Selected Exhibitions",
+    "contactEyebrow": "Contact",
+    "contactTitle": "Germany · Portugal · Mongolia"
+  },
+  "about": [
+    "Zazaa Ganbold is a Mongolian born contemporary artist working across Germany, Portugal and Mongolia. Her multidisciplinary practice spans painting, collage, digital media and textile based works. Her work investigates the relationship between the visible and the invisible, the material and the spiritual, and the continuous transformation of human consciousness.",
+    "Rather than treating the human body as a representational subject, Ganbold approaches it as a living vessel of memory, emotion and symbolic knowledge. Figures dissolve into animals, plants, masks and archetypal forms, creating visual landscapes in which personal experience intersects with collective memory and cultural imagination.",
+    "Rooted in Mongolian cosmology and nomadic ideas of interconnectedness, while informed by European contemporary art and psychological thought, her work transforms cultural references into an open symbolic language. Dreams, intuition and mythology become ways of understanding reality beyond what can be rationally explained."
+  ],
+  "contactText": "For inquiries regarding artworks, exhibitions, commissions or collaborations, please get in touch.",
+  "educationTitle": "Education",
+  "education": [
+    "1994 to 1999, Bachelor of Arts in Painting and Graphic Design, Mongolian University of Arts and Culture, Ulaanbaatar.",
+    "2000 to 2002, Independent research travels to China, Korea, Japan and India, focusing on contemporary art and traditional Asian cultural practices."
+  ],
+  "languagesTitle": "Languages",
+  "languages": "Mongolian native, German fluent, English intermediate.",
+  "footerArtist": "Contemporary Artist",
+  "works": [
+    {
+      "slug": "bi-ba-bid",
+      "title": "Bi ba Bid (I and We)",
+      "year": "2026",
+      "medium": "Acrylic on canvas",
+      "size": "150 × 100 cm",
+      "status": "",
+      "image": "assets/images/bi-ba-bid.jpg",
+      "series": "Identity and Consciousness",
+      "seriesKey": "identity"
+    },
+    {
+      "slug": "dual-essence",
+      "title": "Dual Essence",
+      "year": "2025",
+      "medium": "Acrylic and mixed media on canvas",
+      "size": "100 × 100 cm",
+      "status": "Private Collection",
+      "image": "assets/images/dual-essence.jpg",
+      "series": "Identity and Consciousness",
+      "seriesKey": "identity"
+    },
+    {
+      "slug": "dual-identity",
+      "title": "Dual Identity",
+      "year": "2024",
+      "medium": "Acrylic on canvas",
+      "size": "120 × 160 cm",
+      "status": "Collection, Vietnam",
+      "image": "assets/images/dual-identity.jpg",
+      "series": "Identity and Consciousness",
+      "seriesKey": "identity"
+    },
+    {
+      "slug": "observation",
+      "title": "Observation",
+      "year": "2024",
+      "medium": "Acrylic, collage and mixed media on canvas",
+      "size": "70 × 120 cm",
+      "status": "Private Collection",
+      "image": "assets/images/observation.jpg",
+      "series": "Identity and Consciousness",
+      "seriesKey": "identity"
+    },
+    {
+      "slug": "sisters",
+      "title": "Sisters",
+      "year": "2024",
+      "medium": "Acrylic on canvas",
+      "size": "80 × 100 cm",
+      "status": "Private Collection",
+      "image": "assets/images/sisters.jpg",
+      "series": "Identity and Consciousness",
+      "seriesKey": "identity"
+    },
+    {
+      "slug": "desire-boundaries",
+      "title": "Desire and Boundaries",
+      "year": "2024",
+      "medium": "Acrylic and oil on canvas",
+      "size": "100 × 80 cm",
+      "status": "Available",
+      "image": "assets/images/desire-boundaries.jpg",
+      "series": "Identity and Consciousness",
+      "seriesKey": "identity"
+    },
+    {
+      "slug": "between-worlds",
+      "title": "Between Worlds",
+      "year": "2024",
+      "medium": "Acrylic and oil on canvas",
+      "size": "70 × 70 cm",
+      "status": "Available",
+      "image": "assets/images/between-worlds.jpg",
+      "series": "Identity and Consciousness",
+      "seriesKey": "identity"
+    },
+    {
+      "slug": "four-seasons",
+      "title": "Four Seasons",
+      "year": "2025",
+      "medium": "Oil and acrylic on canvas",
+      "size": "4 panels, each 40 × 100 cm. Overall installation 160 × 100 cm",
+      "status": "Available",
+      "image": "assets/images/four-seasons.jpg",
+      "series": "Nature and Spiritual Transformation",
+      "seriesKey": "nature"
+    },
+    {
+      "slug": "natural-cycles",
+      "title": "Natural Cycles",
+      "year": "2020",
+      "medium": "Acrylic on canvas",
+      "size": "100 × 100 cm",
+      "status": "Private Collection",
+      "image": "assets/images/natural-cycles.jpg",
+      "series": "Nature and Spiritual Transformation",
+      "seriesKey": "nature"
+    },
+    {
+      "slug": "cycle-of-life",
+      "title": "Cycle of Life",
+      "year": "2023",
+      "medium": "Acrylic and oil on canvas",
+      "size": "100 × 100 cm",
+      "status": "Private Collection",
+      "image": "assets/images/cycle-of-life.jpg",
+      "series": "Nature and Spiritual Transformation",
+      "seriesKey": "nature"
+    },
+    {
+      "slug": "amar-amgalan",
+      "title": "Amar Amgalan (Peace)",
+      "year": "2024",
+      "medium": "Acrylic and oil on canvas",
+      "size": "45 × 75 cm",
+      "status": "Private Collection",
+      "image": "assets/images/amar-amgalan.jpg",
+      "series": "Nature and Spiritual Transformation",
+      "seriesKey": "nature"
+    },
+    {
+      "slug": "deep-flight",
+      "title": "Gün Develt (Deep Flight)",
+      "year": "2024",
+      "medium": "Acrylic and oil on canvas",
+      "size": "60 × 80 cm",
+      "status": "Private Collection",
+      "image": "assets/images/deep-flight.jpg",
+      "series": "Nature and Spiritual Transformation",
+      "seriesKey": "nature"
+    },
+    {
+      "slug": "forest-dream",
+      "title": "Forest Dream",
+      "year": "2024",
+      "medium": "Acrylic on canvas",
+      "size": "60 × 70 cm",
+      "status": "Private Collection",
+      "image": "assets/images/forest-dream.jpg",
+      "series": "Nature and Spiritual Transformation",
+      "seriesKey": "nature"
+    },
+    {
+      "slug": "ai",
+      "title": "AI",
+      "year": "2018",
+      "medium": "Acrylic and oil on canvas",
+      "size": "110 × 160 cm",
+      "status": "Available",
+      "image": "assets/images/ai.jpg",
+      "series": "Technology and Consciousness",
+      "seriesKey": "technology"
+    },
+    {
+      "slug": "big-data",
+      "title": "Big Data",
+      "year": "2018",
+      "medium": "Acrylic on canvas",
+      "size": "60 × 80 cm",
+      "status": "",
+      "image": "assets/images/big-data.jpg",
+      "series": "Technology and Consciousness",
+      "seriesKey": "technology"
+    },
+    {
+      "slug": "free-will-illusion",
+      "title": "The Free Will and Illusion",
+      "year": "2018",
+      "medium": "Acrylic and oil on canvas",
+      "size": "120 × 140 cm",
+      "status": "Available",
+      "image": "assets/images/free-will-illusion.jpg",
+      "series": "Technology and Consciousness",
+      "seriesKey": "technology"
+    },
+    {
+      "slug": "beyond-reality",
+      "title": "Beyond Reality",
+      "year": "2022",
+      "medium": "Acrylic on canvas",
+      "size": "120 × 100 cm",
+      "status": "",
+      "image": "assets/images/beyond-reality.jpg",
+      "series": "Existential Narratives",
+      "seriesKey": "narratives"
+    },
+    {
+      "slug": "estimate",
+      "title": "Estimate",
+      "year": "2018",
+      "medium": "Oil on canvas",
+      "size": "80 × 80 cm",
+      "status": "",
+      "image": "assets/images/estimate.jpg",
+      "series": "Existential Narratives",
+      "seriesKey": "narratives"
+    },
+    {
+      "slug": "spirit-of-the-wild",
+      "title": "Spirit of the Wild",
+      "year": "2019",
+      "medium": "Digital mixed media on paper",
+      "size": "30 × 40 cm",
+      "status": "Available",
+      "image": "assets/images/spirit-of-the-wild.jpg",
+      "series": "Digital Works and Drawings",
+      "seriesKey": "paper"
+    },
+    {
+      "slug": "human-pattern",
+      "title": "Human Pattern",
+      "year": "2019",
+      "medium": "Digital art, mixed media on paper",
+      "size": "30 × 40 cm",
+      "status": "",
+      "image": "assets/images/human-pattern.jpg",
+      "series": "Digital Works and Drawings",
+      "seriesKey": "paper"
+    },
+    {
+      "slug": "portrait-drawing",
+      "title": "Portrait",
+      "year": "2015",
+      "medium": "Drawing and mixed media on paper",
+      "size": "30 × 40 cm",
+      "status": "",
+      "image": "assets/images/portrait-drawing.jpg",
+      "series": "Digital Works and Drawings",
+      "seriesKey": "paper"
+    }
+  ],
+  "series": {
+    "identity": "Identity and Consciousness",
+    "nature": "Nature and Spiritual Transformation",
+    "technology": "Technology and Consciousness",
+    "narratives": "Existential Narratives",
+    "paper": "Digital Works and Drawings"
+  },
+  "exhibitions": {
+    "soloTitle": "Selected Solo Exhibitions",
+    "groupTitle": "Selected Group Exhibitions and Projects",
+    "solo": [
+      {
+        "year": "2024",
+        "text": "Desire and Limit, Khaan Bank Gallery, Ulaanbaatar, Mongolia"
+      },
+      {
+        "year": "2020",
+        "text": "Cycle of Nature, Vinogradov Gallery, Berlin, Germany"
+      },
+      {
+        "year": "2019",
+        "text": "Who Are We?, Ulaan Ger Gallery, Ulaanbaatar, Mongolia"
+      },
+      {
+        "year": "2017",
+        "text": "Four Seasons, Shangri La Art Gallery, Ulaanbaatar, Mongolia"
+      },
+      {
+        "year": "2013",
+        "text": "The Motion, Schiller Gallery, Leipzig, Germany"
+      }
+    ],
+    "group": [
+      {
+        "year": "2024",
+        "text": "Convergências, Cultural Centre of Lagoa, Algarve, Portugal"
+      },
+      {
+        "year": "2024",
+        "text": "AAmA, Aveiro Museum of Art, Aveiro, Portugal"
+      },
+      {
+        "year": "2023",
+        "text": "Hanoi Art Connection 6, Hanoi, Vietnam"
+      },
+      {
+        "year": "2023",
+        "text": "Hatyai International Artist Camp, Hat Yai, Thailand"
+      },
+      {
+        "year": "2020",
+        "text": "Liquid Lunch, BAS Gallery, Berlin, Germany"
+      },
+      {
+        "year": "2019",
+        "text": "Passage of Time, International Exhibition of Women Artists, Ulaanbaatar, Mongolia"
+      },
+      {
+        "year": "2019",
+        "text": "Silk Road, Marco Polo International Cultural Event, Đakovo, Croatia"
+      }
+    ]
+  }
+}

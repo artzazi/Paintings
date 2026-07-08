@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zazaa Ganbold | Contemporary Artist</title>
+  <meta name="description" content="Zazaa Ganbold is a Mongolian born contemporary artist working across Germany, Portugal and Mongolia.">
+  <link rel="icon" href="assets/images/logo.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Zazaa Ganbold home">
+      <img src="assets/images/logo.png" alt="Zazaa Ganbold logo">
+      <span>ZAZAA GANBOLD</span>
+    </a>
+    <nav class="nav">
+      <a href="#works" data-i18n="nav.works">Works</a>
+      <a href="#series" data-i18n="nav.series">Series</a>
+      <a href="#about" data-i18n="nav.about">About</a>
+      <a href="#exhibitions" data-i18n="nav.exhibitions">Exhibitions</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+      <span class="language-switch">
+        <button data-lang="en">EN</button>
+        <button data-lang="de">DE</button>
+        <button data-lang="mn">MN</button>
+      </span>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-image">
+        <img id="heroImage" src="assets/images/bi-ba-bid.jpg" alt="Artwork by Zazaa Ganbold">
+      </div>
+      <div class="hero-text">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Contemporary Artist</p>
+        <h1 data-i18n="hero.title">Zazaa Ganbold</h1>
+        <p data-i18n="hero.text">Contemporary symbolic figurative painting exploring identity, consciousness, nature and transformation.</p>
+        <a class="text-link" href="#works" data-i18n="hero.button">Explore the works</a>
+      </div>
+    </section>
+
+    <section class="intro-section">
+      <p data-i18n="intro"></p>
+    </section>
+
+    <section id="works" class="section">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="sections.worksEyebrow">Selected Works</p>
+        <h2 data-i18n="sections.worksTitle">Paintings and Works on Paper</h2>
+      </div>
+      <div class="works-grid" id="worksGrid"></div>
+    </section>
+
+    <section id="series" class="section series-section">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="sections.seriesEyebrow">Series</p>
+        <h2 data-i18n="sections.seriesTitle">Curated Work Groups</h2>
+      </div>
+      <div class="series-grid" id="seriesGrid"></div>
+    </section>
+
+    <section id="about" class="section split-section">
+      <div>
+        <p class="eyebrow" data-i18n="sections.aboutEyebrow">About</p>
+        <h2 data-i18n="sections.aboutTitle">Biography</h2>
+      </div>
+      <div class="text-column" id="aboutText"></div>
+    </section>
+
+    <section id="exhibitions" class="section exhibitions">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="sections.cvEyebrow">CV</p>
+        <h2 data-i18n="sections.cvTitle">Selected Exhibitions</h2>
+      </div>
+      <div id="exhibitionContent"></div>
+      <div class="education">
+        <h3 data-i18n="educationTitle">Education</h3>
+        <div id="educationText"></div>
+        <h3 data-i18n="languagesTitle">Languages</h3>
+        <p data-i18n="languages"></p>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <p class="eyebrow" data-i18n="sections.contactEyebrow">Contact</p>
+      <h2 data-i18n="sections.contactTitle">Germany · Portugal · Mongolia</h2>
+      <p data-i18n="contactText"></p>
+      <p><a href="mailto:info@zazaa.de">info@zazaa.de</a></p>
+      <p><a href="https://www.instagram.com/zazaa_art" target="_blank" rel="noopener">Instagram · @zazaa_art</a></p>
+      <p><a href="https://www.facebook.com/search/top?q=Zazaa%20Ganbold" target="_blank" rel="noopener">Facebook · Zazaa Ganbold</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>ZAZAA GANBOLD</p>
+    <p id="footerArtist">Contemporary Artist</p>
+    <p>Germany · Portugal · Mongolia</p>
+    <p>© 2026 Zazaa Ganbold. All rights reserved.</p>
+  </footer>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <button class="modal-close" id="modalClose" aria-label="Close artwork view">Close</button>
+    <img id="modalImage" src="" alt="">
+    <div class="modal-info">
+      <h2 id="modalTitle"></h2>
+      <p id="modalDetails"></p>
+      <p id="modalStatus"></p>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
