@@ -30,7 +30,7 @@ button{font-family:inherit}
 .intro-section p{max-width:980px;font-family:Georgia,"Times New Roman",serif;font-size:clamp(20px,3vw,38px);line-height:1.18;margin:0 auto}
 .section{max-width:var(--max);margin:auto;padding:110px 6vw}
 .section-heading{display:flex;justify-content:space-between;align-items:end;gap:40px;margin-bottom:46px}
-h2{font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:clamp(36px,5vw,72px);line-height:1;margin:0}
+h2{font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:clamp(28px,4vw,56px);line-height:1;margin:0}
 .works-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:60px 34px}
 .work-card img{width:100%;height:520px;object-fit:contain;background:#eeeae3}
 .work-button{display:block;border:0;padding:0;background:transparent;cursor:pointer;width:100%}
