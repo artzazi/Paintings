@@ -80,21 +80,31 @@ function renderEducation(){
   document.getElementById('educationText').innerHTML = currentContent.education.map(text => `<p>${text}</p>`).join('');
 }
 
+let currentWorkIndex = -1;
+
+function openModalByIndex(index){
+  if (!currentContent || !currentContent.works.length) return;
+  const total = currentContent.works.length;
+  currentWorkIndex = ((index % total) + total) % total;
+  const work = currentContent.works[currentWorkIndex];
+  document.getElementById('modalImage').src = work.image;
+  document.getElementById('modalImage').alt = work.title + ', artwork by Zazaa Ganbold';
+  document.getElementById('modalTitle').textContent = work.title;
+  document.getElementById('modalDetails').textContent = `${work.year}. ${work.medium}. ${work.size}.`;
+  document.getElementById('modalStatus').textContent = work.status || '';
+  document.getElementById('modal').classList.add('open');
+  document.getElementById('modal').setAttribute('aria-hidden','false');
+}
+
 document.addEventListener('click', event => {
   const langButton = event.target.closest('[data-lang]');
   if (langButton) loadLanguage(langButton.dataset.lang);
 
   const workButton = event.target.closest('.work-button');
   if (workButton && currentContent) {
-    const work = currentContent.works.find(item => item.slug === workButton.dataset.slug);
-    if (!work) return;
-    document.getElementById('modalImage').src = work.image;
-    document.getElementById('modalImage').alt = work.title + ', artwork by Zazaa Ganbold';
-    document.getElementById('modalTitle').textContent = work.title;
-    document.getElementById('modalDetails').textContent = `${work.year}. ${work.medium}. ${work.size}.`;
-    document.getElementById('modalStatus').textContent = work.status || '';
-    document.getElementById('modal').classList.add('open');
-    document.getElementById('modal').setAttribute('aria-hidden','false');
+    const index = currentContent.works.findIndex(item => item.slug === workButton.dataset.slug);
+    if (index === -1) return;
+    openModalByIndex(index);
   }
 });
 
@@ -103,14 +113,41 @@ function closeModal(){
   modal.classList.remove('open');
   modal.setAttribute('aria-hidden','true');
   document.getElementById('modalImage').src = '';
+  currentWorkIndex = -1;
 }
 
 document.getElementById('modalClose').addEventListener('click', closeModal);
+document.getElementById('modalPrev').addEventListener('click', () => openModalByIndex(currentWorkIndex - 1));
+document.getElementById('modalNext').addEventListener('click', () => openModalByIndex(currentWorkIndex + 1));
 document.getElementById('modal').addEventListener('click', event => {
   if (event.target.id === 'modal') closeModal();
 });
 document.addEventListener('keydown', event => {
   if (event.key === 'Escape') closeModal();
+  if (currentWorkIndex === -1) return;
+  if (event.key === 'ArrowRight') openModalByIndex(currentWorkIndex + 1);
+  if (event.key === 'ArrowLeft') openModalByIndex(currentWorkIndex - 1);
 });
+
+// Swipe navigation for touch devices
+let touchStartX = 0;
+let touchStartY = 0;
+const modalEl = document.getElementById('modal');
+modalEl.addEventListener('touchstart', event => {
+  touchStartX = event.changedTouches[0].clientX;
+  touchStartY = event.changedTouches[0].clientY;
+}, { passive: true });
+modalEl.addEventListener('touchend', event => {
+  if (currentWorkIndex === -1) return;
+  const touchEndX = event.changedTouches[0].clientX;
+  const touchEndY = event.changedTouches[0].clientY;
+  const deltaX = touchEndX - touchStartX;
+  const deltaY = touchEndY - touchStartY;
+  if (Math.abs(deltaX) > 50 && Math.abs(deltaX) > Math.abs(deltaY)) {
+    if (deltaX < 0) openModalByIndex(currentWorkIndex + 1);
+    else openModalByIndex(currentWorkIndex - 1);
+  }
+}, { passive: true });
+
 
 loadLanguage(currentLanguage);
