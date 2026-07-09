@@ -90,7 +90,7 @@ function openModalByIndex(index){
   document.getElementById('modalImage').src = work.image;
   document.getElementById('modalImage').alt = work.title + ', artwork by Zazaa Ganbold';
   document.getElementById('modalTitle').textContent = work.title;
-  document.getElementById('modalDetails').textContent = `${work.year}. ${work.medium}. ${work.size}.`;
+  document.getElementById('modalDetails').innerHTML = `<span>${work.year}</span><span>${work.medium}</span><span>${work.size}</span>`;
   document.getElementById('modalStatus').textContent = work.status || '';
   document.getElementById('modal').classList.add('open');
   document.getElementById('modal').setAttribute('aria-hidden','false');
