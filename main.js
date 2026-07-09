@@ -3,7 +3,7 @@ let currentContent = null;
 let currentLanguage = localStorage.getItem('zazaa-language') || 'en';
 
 async function loadLanguage(lang){
-  const response = await fetch(`data/${lang}.json`);
+  const response = await fetch(`${lang}.json`);
   currentContent = await response.json();
   currentLanguage = lang;
   localStorage.setItem('zazaa-language', lang);
