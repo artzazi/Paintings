@@ -47,7 +47,7 @@
       "medium": "Даавуун дээр акрил",
       "size": "150 × 100 cm",
       "status": "",
-      "image": "assets/images/bi-ba-bid.jpg",
+      "image": "bi-ba-bid.jpg",
       "series": "Өөрийгөө танихуй ба ухамсар",
       "seriesKey": "identity"
     },
@@ -58,7 +58,7 @@
       "medium": "Даавуун дээр акрил, холимог техник",
       "size": "100 × 100 cm",
       "status": "Хувийн цуглуулга",
-      "image": "assets/images/dual-essence.jpg",
+      "image": "dual-essence.jpg",
       "series": "Өөрийгөө танихуй ба ухамсар",
       "seriesKey": "identity"
     },
@@ -69,7 +69,7 @@
       "medium": "Даавуун дээр акрил",
       "size": "120 × 160 cm",
       "status": "Вьетнам дахь цуглуулга",
-      "image": "assets/images/dual-identity.jpg",
+      "image": "dual-identity.jpg",
       "series": "Өөрийгөө танихуй ба ухамсар",
       "seriesKey": "identity"
     },
@@ -80,7 +80,7 @@
       "medium": "Даавуун дээр акрил, коллаж, холимог техник",
       "size": "70 × 120 cm",
       "status": "Хувийн цуглуулга",
-      "image": "assets/images/observation.jpg",
+      "image": "observation.jpg",
       "series": "Өөрийгөө танихуй ба ухамсар",
       "seriesKey": "identity"
     },
@@ -91,7 +91,7 @@
       "medium": "Даавуун дээр акрил",
       "size": "80 × 100 cm",
       "status": "Хувийн цуглуулга",
-      "image": "assets/images/sisters.jpg",
+      "image": "sisters.jpg",
       "series": "Өөрийгөө танихуй ба ухамсар",
       "seriesKey": "identity"
     },
@@ -102,7 +102,7 @@
       "medium": "Даавуун дээр акрил, тос",
       "size": "100 × 80 cm",
       "status": "Боломжтой",
-      "image": "assets/images/desire-boundaries.jpg",
+      "image": "desire-boundaries.jpg",
       "series": "Өөрийгөө танихуй ба ухамсар",
       "seriesKey": "identity"
     },
@@ -113,7 +113,7 @@
       "medium": "Даавуун дээр акрил, тос",
       "size": "70 × 70 cm",
       "status": "Боломжтой",
-      "image": "assets/images/between-worlds.jpg",
+      "image": "between-worlds.jpg",
       "series": "Өөрийгөө танихуй ба ухамсар",
       "seriesKey": "identity"
     },
@@ -124,7 +124,7 @@
       "medium": "Даавуун дээр тос, акрил",
       "size": "4 panels, each 40 × 100 cm. Overall installation 160 × 100 cm",
       "status": "Боломжтой",
-      "image": "assets/images/four-seasons.jpg",
+      "image": "four-seasons.jpg",
       "series": "Байгаль ба сүнслэг өөрчлөлт",
       "seriesKey": "nature"
     },
@@ -135,7 +135,7 @@
       "medium": "Даавуун дээр акрил",
       "size": "100 × 100 cm",
       "status": "Хувийн цуглуулга",
-      "image": "assets/images/natural-cycles.jpg",
+      "image": "natural-cycles.jpg",
       "series": "Байгаль ба сүнслэг өөрчлөлт",
       "seriesKey": "nature"
     },
@@ -146,7 +146,7 @@
       "medium": "Даавуун дээр акрил, тос",
       "size": "100 × 100 cm",
       "status": "Хувийн цуглуулга",
-      "image": "assets/images/cycle-of-life.jpg",
+      "image": "cycle-of-life.jpg",
       "series": "Байгаль ба сүнслэг өөрчлөлт",
       "seriesKey": "nature"
     },
@@ -157,7 +157,7 @@
       "medium": "Даавуун дээр акрил, тос",
       "size": "45 × 75 cm",
       "status": "Хувийн цуглуулга",
-      "image": "assets/images/amar-amgalan.jpg",
+      "image": "amar-amgalan.jpg",
       "series": "Байгаль ба сүнслэг өөрчлөлт",
       "seriesKey": "nature"
     },
@@ -168,7 +168,7 @@
       "medium": "Даавуун дээр акрил, тос",
       "size": "60 × 80 cm",
       "status": "Хувийн цуглуулга",
-      "image": "assets/images/deep-flight.jpg",
+      "image": "deep-flight.jpg",
       "series": "Байгаль ба сүнслэг өөрчлөлт",
       "seriesKey": "nature"
     },
@@ -179,7 +179,7 @@
       "medium": "Даавуун дээр акрил",
       "size": "60 × 70 cm",
       "status": "Хувийн цуглуулга",
-      "image": "assets/images/forest-dream.jpg",
+      "image": "forest-dream.jpg",
       "series": "Байгаль ба сүнслэг өөрчлөлт",
       "seriesKey": "nature"
     },
@@ -190,7 +190,7 @@
       "medium": "Даавуун дээр акрил, тос",
       "size": "110 × 160 cm",
       "status": "Боломжтой",
-      "image": "assets/images/ai.jpg",
+      "image": "ai.jpg",
       "series": "Технологи ба ухамсар",
       "seriesKey": "technology"
     },
@@ -201,7 +201,7 @@
       "medium": "Даавуун дээр акрил",
       "size": "60 × 80 cm",
       "status": "",
-      "image": "assets/images/big-data.jpg",
+      "image": "big-data.jpg",
       "series": "Технологи ба ухамсар",
       "seriesKey": "technology"
     },
@@ -212,7 +212,7 @@
       "medium": "Даавуун дээр акрил, тос",
       "size": "120 × 140 cm",
       "status": "Боломжтой",
-      "image": "assets/images/free-will-illusion.jpg",
+      "image": "free-will-illusion.jpg",
       "series": "Технологи ба ухамсар",
       "seriesKey": "technology"
     },
@@ -223,7 +223,7 @@
       "medium": "Даавуун дээр акрил",
       "size": "120 × 100 cm",
       "status": "",
-      "image": "assets/images/beyond-reality.jpg",
+      "image": "beyond-reality.jpg",
       "series": "Оршихуйн дүрслэлийн орон зай",
       "seriesKey": "narratives"
     },
@@ -234,7 +234,7 @@
       "medium": "Даавуун дээр тос",
       "size": "80 × 80 cm",
       "status": "",
-      "image": "assets/images/estimate.jpg",
+      "image": "estimate.jpg",
       "series": "Оршихуйн дүрслэлийн орон зай",
       "seriesKey": "narratives"
     },
@@ -245,7 +245,7 @@
       "medium": "Цаасан дээр дижитал холимог техник",
       "size": "30 × 40 cm",
       "status": "Боломжтой",
-      "image": "assets/images/spirit-of-the-wild.jpg",
+      "image": "spirit-of-the-wild.jpg",
       "series": "Дижитал бүтээл ба зураг",
       "seriesKey": "paper"
     },
@@ -256,7 +256,7 @@
       "medium": "Цаасан дээр дижитал урлаг, холимог техник",
       "size": "30 × 40 cm",
       "status": "",
-      "image": "assets/images/human-pattern.jpg",
+      "image": "human-pattern.jpg",
       "series": "Дижитал бүтээл ба зураг",
       "seriesKey": "paper"
     },
@@ -267,7 +267,7 @@
       "medium": "Цаасан дээр зураг, холимог техник",
       "size": "30 × 40 cm",
       "status": "",
-      "image": "assets/images/portrait-drawing.jpg",
+      "image": "portrait-drawing.jpg",
       "series": "Дижитал бүтээл ба зураг",
       "seriesKey": "paper"
     }
