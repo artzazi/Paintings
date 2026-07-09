@@ -42,7 +42,7 @@
   "works": [
     {
       "slug": "bi-ba-bid",
-      "title": "Bi ba Bid (Ich und Wir)",
+      "title": "Ich und Wir",
       "year": "2026",
       "medium": "Acryl auf Leinwand",
       "size": "150 × 100 cm",
@@ -152,7 +152,7 @@
     },
     {
       "slug": "amar-amgalan",
-      "title": "Amar Amgalan (Frieden)",
+      "title": "Frieden",
       "year": "2024",
       "medium": "Acryl und Öl auf Leinwand",
       "size": "45 × 75 cm",
@@ -163,7 +163,7 @@
     },
     {
       "slug": "deep-flight",
-      "title": "Gün Develt (Tiefer Flug)",
+      "title": "Tiefer Flug",
       "year": "2024",
       "medium": "Acryl und Öl auf Leinwand",
       "size": "60 × 80 cm",
@@ -200,7 +200,7 @@
       "year": "2018",
       "medium": "Acryl auf Leinwand",
       "size": "60 × 80 cm",
-      "status": "",
+      "status": "Verfügbar",
       "image": "big-data.jpg",
       "series": "Technologie und Bewusstsein",
       "seriesKey": "technology"
@@ -222,7 +222,7 @@
       "year": "2022",
       "medium": "Acryl auf Leinwand",
       "size": "120 × 100 cm",
-      "status": "",
+      "status": "Verfügbar",
       "image": "beyond-reality.jpg",
       "series": "Existenzielle Bildräume",
       "seriesKey": "narratives"
@@ -233,7 +233,7 @@
       "year": "2018",
       "medium": "Öl auf Leinwand",
       "size": "80 × 80 cm",
-      "status": "",
+      "status": "Verfügbar",
       "image": "estimate.jpg",
       "series": "Existenzielle Bildräume",
       "seriesKey": "narratives"
@@ -255,7 +255,7 @@
       "year": "2019",
       "medium": "Digitale Kunst, Mischtechnik auf Papier",
       "size": "30 × 40 cm",
-      "status": "",
+      "status": "Verfügbar",
       "image": "human-pattern.jpg",
       "series": "Digitale Arbeiten und Zeichnungen",
       "seriesKey": "paper"
@@ -266,7 +266,7 @@
       "year": "2015",
       "medium": "Zeichnung und Mischtechnik auf Papier",
       "size": "30 × 40 cm",
-      "status": "",
+      "status": "Verfügbar",
       "image": "portrait-drawing.jpg",
       "series": "Digitale Arbeiten und Zeichnungen",
       "seriesKey": "paper"
