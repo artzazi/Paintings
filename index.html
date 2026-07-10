@@ -17,6 +17,26 @@
   <meta name="twitter:image" content="https://zazaa.de/bi-ba-bid.jpg">
   <link rel="icon" href="logo.png" type="image/png">
   <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Zazaa Ganbold",
+    "jobTitle": "Contemporary Artist",
+    "url": "https://zazaa.de/",
+    "image": "https://zazaa.de/bi-ba-bid.jpg",
+    "sameAs": [
+      "https://www.instagram.com/zazaa_art",
+      "https://www.saatchiart.com/"
+    ],
+    "nationality": "Mongolian",
+    "knowsAbout": ["Painting", "Contemporary Art", "Mixed Media", "Figurative Art"],
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Independent Artist"
+    }
+  }
+  </script>
 </head>
 <body>
   <header class="site-header">
@@ -27,6 +47,7 @@
     <nav class="nav">
       <a href="#works" data-i18n="nav.works">Works</a>
       <a href="#series" data-i18n="nav.series">Series</a>
+      <a href="#prints" data-i18n="nav.prints">Prints</a>
       <a href="#about" data-i18n="nav.about">About</a>
       <a href="#exhibitions" data-i18n="nav.exhibitions">Exhibitions</a>
       <a href="#contact" data-i18n="nav.contact">Contact</a>
@@ -71,6 +92,61 @@
       <div class="series-grid" id="seriesGrid"></div>
     </section>
 
+    <section id="prints" class="section prints-section">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="sections.printsEyebrow">Prints &amp; Editions</p>
+        <h2 data-i18n="sections.printsTitle">Own a Piece, Framed or Unframed</h2>
+      </div>
+      <div class="prints-wrap">
+        <p class="prints-intro" data-i18n="prints.intro"></p>
+        <form class="prints-form" id="print-request-form" name="print-request" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="print-request">
+          <p class="hidden-field"><label>Don't fill this out: <input name="bot-field"></label></p>
+          <div class="form-row">
+            <label>
+              <span data-i18n="prints.formName">Name</span>
+              <input type="text" name="name" required>
+            </label>
+            <label>
+              <span data-i18n="prints.formEmail">Email</span>
+              <input type="email" name="email" required>
+            </label>
+          </div>
+          <div class="form-row">
+            <label>
+              <span data-i18n="prints.formArtwork">Artwork title</span>
+              <input type="text" name="artwork">
+            </label>
+            <label>
+              <span data-i18n="prints.formSize">Preferred size</span>
+              <input type="text" name="size">
+            </label>
+          </div>
+          <label class="full">
+            <span data-i18n="prints.formMessage">Message</span>
+            <textarea name="message" rows="4"></textarea>
+          </label>
+          <button type="submit" class="text-link form-submit" data-i18n="prints.formSubmit">Send Request</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="newsletter" class="section newsletter-section">
+      <div class="newsletter-wrap">
+        <div>
+          <p class="eyebrow" data-i18n="sections.newsletterEyebrow">Stay Connected</p>
+          <h2 data-i18n="sections.newsletterTitle">New Works &amp; Exhibitions</h2>
+          <p data-i18n="newsletter.intro" class="newsletter-intro"></p>
+        </div>
+        <form class="newsletter-form" id="newsletter-form" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="newsletter">
+          <p class="hidden-field"><label>Don't fill this out: <input name="bot-field"></label></p>
+          <input type="email" name="email" data-i18n-placeholder="newsletter.placeholder" placeholder="Your email address" required>
+          <button type="submit" class="text-link form-submit" data-i18n="newsletter.button">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
     <section id="about" class="section split-section">
       <div>
         <p class="eyebrow" data-i18n="sections.aboutEyebrow">About</p>
@@ -100,6 +176,7 @@
       <p><a href="mailto:info@zazaa.de">info@zazaa.de</a></p>
       <p><a href="https://www.instagram.com/zazaa_art" target="_blank" rel="noopener">Instagram · @zazaa_art</a></p>
       <p><a href="https://www.facebook.com/search/top?q=Zazaa%20Ganbold" target="_blank" rel="noopener">Facebook · Zazaa Ganbold</a></p>
+      <p><a href="https://www.saatchiart.com/" target="_blank" rel="noopener" id="saatchiLink" data-i18n="saatchiLabel">Saatchi Art · Zazaa Ganbold</a></p>
     </section>
   </main>
 
@@ -121,6 +198,10 @@
       <h2 id="modalTitle"></h2>
       <p id="modalDetails"></p>
       <p id="modalStatus"></p>
+      <div class="modal-actions">
+        <a id="modalInquire" class="text-link" href="#" data-i18n="modal.inquire">Inquire About This Piece</a>
+        <a id="modalPrint" class="text-link" href="#prints" data-i18n="modal.requestPrint">Request a Print</a>
+      </div>
     </div>
   </div>
 

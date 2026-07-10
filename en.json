@@ -4,7 +4,8 @@
     "series": "Series",
     "about": "About",
     "exhibitions": "Exhibitions",
-    "contact": "Contact"
+    "contact": "Contact",
+    "prints": "Prints"
   },
   "hero": {
     "eyebrow": "Contemporary Artist",
@@ -23,7 +24,11 @@
     "cvEyebrow": "CV",
     "cvTitle": "Selected Exhibitions",
     "contactEyebrow": "Contact",
-    "contactTitle": "Germany · Portugal · Mongolia"
+    "contactTitle": "Germany · Portugal · Mongolia",
+    "printsEyebrow": "Prints & Editions",
+    "printsTitle": "Own a Piece, Framed or Unframed",
+    "newsletterEyebrow": "Stay Connected",
+    "newsletterTitle": "New Works & Exhibitions"
   },
   "about": [
     "Zazaa Ganbold is a Mongolian born contemporary artist working across Germany, Portugal and Mongolia. Her multidisciplinary practice spans painting, collage, digital media and textile based works. Her work investigates the relationship between the visible and the invisible, the material and the spiritual, and the continuous transformation of human consciousness.",
@@ -334,5 +339,28 @@
         "text": "Silk Road, Marco Polo International Cultural Event, Đakovo, Croatia"
       }
     ]
-  }
+  },
+  "prints": {
+    "intro": "Signed, limited edition fine art prints of selected works are available on request. Tell me which piece interests you and your preferred size, and I will send pricing and availability.",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formArtwork": "Artwork title",
+    "formSize": "Preferred size",
+    "formMessage": "Message",
+    "formSubmit": "Send Request",
+    "formSuccessTitle": "Thank you",
+    "formSuccessText": "Your request has been sent. I will reply within a few days."
+  },
+  "newsletter": {
+    "intro": "Sign up to hear about new paintings, exhibitions and available prints, a few times a year.",
+    "placeholder": "Your email address",
+    "button": "Subscribe",
+    "successTitle": "Welcome",
+    "successText": "Thank you for subscribing."
+  },
+  "modal": {
+    "inquire": "Inquire About This Piece",
+    "requestPrint": "Request a Print"
+  },
+  "saatchiLabel": "Saatchi Art · Zazaa Ganbold"
 }

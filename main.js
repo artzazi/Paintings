@@ -21,6 +21,11 @@ function renderLanguage(){
     if (value) element.textContent = value;
   });
 
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(element => {
+    const value = getValue(element.dataset.i18nPlaceholder);
+    if (value) element.setAttribute('placeholder', value);
+  });
+
   document.querySelectorAll('[data-lang]').forEach(button => {
     button.classList.toggle('active', button.dataset.lang === currentLanguage);
   });
@@ -90,8 +95,14 @@ function openModalByIndex(index){
   document.getElementById('modalImage').src = work.image;
   document.getElementById('modalImage').alt = work.title + ', artwork by Zazaa Ganbold';
   document.getElementById('modalTitle').textContent = work.title;
-  document.getElementById('modalDetails').innerHTML = `<span>${work.year}</span><span>${work.medium}</span><span>${work.size}</span>`;
+  document.getElementById('modalDetails').textContent = `${work.year}. ${work.medium}. ${work.size}.`;
   document.getElementById('modalStatus').textContent = work.status || '';
+
+  const inquireLink = document.getElementById('modalInquire');
+  const subject = encodeURIComponent(`Inquiry: ${work.title}`);
+  const body = encodeURIComponent(`Hello Zazaa,\n\nI am interested in the artwork "${work.title}" (${work.year}, ${work.medium}, ${work.size}).\nCould you please tell me more about availability and pricing?\n\nThank you.`);
+  inquireLink.href = `mailto:info@zazaa.de?subject=${subject}&body=${body}`;
+
   document.getElementById('modal').classList.add('open');
   document.getElementById('modal').setAttribute('aria-hidden','false');
 }
@@ -149,5 +160,31 @@ modalEl.addEventListener('touchend', event => {
   }
 }, { passive: true });
 
+
+function encodeFormData(form){
+  return new URLSearchParams(new FormData(form)).toString();
+}
+
+function attachNetlifyForm(formId, successKey){
+  const form = document.getElementById(formId);
+  if (!form) return;
+  form.addEventListener('submit', event => {
+    event.preventDefault();
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encodeFormData(form)
+    }).then(() => {
+      const successTitle = getValue(`${successKey}.formSuccessTitle`) || getValue(`${successKey}.successTitle`) || 'Thank you';
+      const successText = getValue(`${successKey}.formSuccessText`) || getValue(`${successKey}.successText`) || 'Your request has been sent.';
+      form.innerHTML = `<p class="form-success"><strong>${successTitle}.</strong> ${successText}</p>`;
+    }).catch(() => {
+      form.insertAdjacentHTML('beforeend', '<p class="form-error">Something went wrong. Please email info@zazaa.de directly.</p>');
+    });
+  });
+}
+
+attachNetlifyForm('print-request-form', 'prints');
+attachNetlifyForm('newsletter-form', 'newsletter');
 
 loadLanguage(currentLanguage);

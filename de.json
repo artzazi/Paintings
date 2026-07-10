@@ -4,7 +4,8 @@
     "series": "Serien",
     "about": "Über",
     "exhibitions": "Ausstellungen",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "prints": "Drucke"
   },
   "hero": {
     "eyebrow": "Zeitgenössische Künstlerin",
@@ -23,7 +24,11 @@
     "cvEyebrow": "CV",
     "cvTitle": "Ausgewählte Ausstellungen",
     "contactEyebrow": "Kontakt",
-    "contactTitle": "Deutschland · Portugal · Mongolei"
+    "contactTitle": "Deutschland · Portugal · Mongolei",
+    "printsEyebrow": "Drucke & Editionen",
+    "printsTitle": "Ein Werk besitzen, gerahmt oder ungerahmt",
+    "newsletterEyebrow": "In Verbindung bleiben",
+    "newsletterTitle": "Neue Werke & Ausstellungen"
   },
   "about": [
     "Zazaa Ganbold ist eine in der Mongolei geborene zeitgenössische Künstlerin, die zwischen Deutschland, Portugal und der Mongolei arbeitet. Ihre multidisziplinäre Praxis umfasst Malerei, Collage, digitale Medien und textile Arbeiten. Ihr Werk untersucht das Verhältnis zwischen Sichtbarem und Unsichtbarem, Materiellem und Spirituellem sowie die fortwährende Transformation menschlichen Bewusstseins.",
@@ -334,5 +339,28 @@
         "text": "Silk Road, Marco Polo International Cultural Event, Đakovo, Kroatien"
       }
     ]
-  }
+  },
+  "prints": {
+    "intro": "Signierte, limitierte Kunstdrucke ausgewählter Werke sind auf Anfrage erhältlich. Teilen Sie mir mit, welches Werk Sie interessiert und in welcher Größe, und ich sende Ihnen Preise und Verfügbarkeit.",
+    "formName": "Name",
+    "formEmail": "E-Mail",
+    "formArtwork": "Werktitel",
+    "formSize": "Gewünschte Größe",
+    "formMessage": "Nachricht",
+    "formSubmit": "Anfrage senden",
+    "formSuccessTitle": "Vielen Dank",
+    "formSuccessText": "Ihre Anfrage wurde gesendet. Ich melde mich in den nächsten Tagen."
+  },
+  "newsletter": {
+    "intro": "Melden Sie sich an, um einige Male im Jahr Neuigkeiten zu neuen Gemälden, Ausstellungen und verfügbaren Drucken zu erhalten.",
+    "placeholder": "Ihre E-Mail-Adresse",
+    "button": "Anmelden",
+    "successTitle": "Willkommen",
+    "successText": "Vielen Dank für Ihre Anmeldung."
+  },
+  "modal": {
+    "inquire": "Anfrage zu diesem Werk",
+    "requestPrint": "Druck anfragen"
+  },
+  "saatchiLabel": "Saatchi Art · Zazaa Ganbold"
 }
