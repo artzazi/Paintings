@@ -36,6 +36,7 @@ function renderLanguage(){
   renderAbout();
   renderExhibitions();
   renderEducation();
+  if (currentWorkIndex !== -1) openModalByIndex(currentWorkIndex);
 }
 
 function renderWorks(){
@@ -99,8 +100,15 @@ function openModalByIndex(index){
   document.getElementById('modalStatus').textContent = work.status || '';
 
   const inquireLink = document.getElementById('modalInquire');
-  const subject = encodeURIComponent(`Inquiry: ${work.title}`);
-  const body = encodeURIComponent(`Hello Zazaa,\n\nI am interested in the artwork "${work.title}" (${work.year}, ${work.medium}, ${work.size}).\nCould you please tell me more about availability and pricing?\n\nThank you.`);
+  const isSold = work.available === false;
+  inquireLink.textContent = isSold
+    ? (getValue('modal.inquireSold') || 'Ask About Similar Work')
+    : (getValue('modal.inquire') || 'Inquire About This Piece');
+
+  const subject = encodeURIComponent(isSold ? `Similar work to: ${work.title}` : `Inquiry: ${work.title}`);
+  const body = isSold
+    ? encodeURIComponent(`Hello Zazaa,\n\nI saw "${work.title}" (${work.year}), which I understand is no longer available. Do you have a similar piece available, or could you create something comparable?\n\nThank you.`)
+    : encodeURIComponent(`Hello Zazaa,\n\nI am interested in the artwork "${work.title}" (${work.year}, ${work.medium}, ${work.size}).\nCould you please tell me more about availability and pricing?\n\nThank you.`);
   inquireLink.href = `mailto:info@zazaa.de?subject=${subject}&body=${body}`;
 
   document.getElementById('modal').classList.add('open');

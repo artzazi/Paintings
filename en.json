@@ -54,7 +54,8 @@
       "status": "",
       "image": "bi-ba-bid.jpg",
       "series": "Identity and Consciousness",
-      "seriesKey": "identity"
+      "seriesKey": "identity",
+      "available": true
     },
     {
       "slug": "dual-essence",
@@ -65,7 +66,8 @@
       "status": "Private Collection",
       "image": "dual-essence.jpg",
       "series": "Identity and Consciousness",
-      "seriesKey": "identity"
+      "seriesKey": "identity",
+      "available": false
     },
     {
       "slug": "dual-identity",
@@ -76,7 +78,8 @@
       "status": "Collection, Vietnam",
       "image": "dual-identity.jpg",
       "series": "Identity and Consciousness",
-      "seriesKey": "identity"
+      "seriesKey": "identity",
+      "available": false
     },
     {
       "slug": "observation",
@@ -87,7 +90,8 @@
       "status": "Private Collection",
       "image": "observation.jpg",
       "series": "Identity and Consciousness",
-      "seriesKey": "identity"
+      "seriesKey": "identity",
+      "available": false
     },
     {
       "slug": "sisters",
@@ -98,7 +102,8 @@
       "status": "Private Collection",
       "image": "sisters.jpg",
       "series": "Identity and Consciousness",
-      "seriesKey": "identity"
+      "seriesKey": "identity",
+      "available": false
     },
     {
       "slug": "desire-boundaries",
@@ -109,7 +114,8 @@
       "status": "Available",
       "image": "desire-boundaries.jpg",
       "series": "Identity and Consciousness",
-      "seriesKey": "identity"
+      "seriesKey": "identity",
+      "available": true
     },
     {
       "slug": "between-worlds",
@@ -120,7 +126,8 @@
       "status": "Available",
       "image": "between-worlds.jpg",
       "series": "Identity and Consciousness",
-      "seriesKey": "identity"
+      "seriesKey": "identity",
+      "available": true
     },
     {
       "slug": "four-seasons",
@@ -131,7 +138,8 @@
       "status": "Available",
       "image": "four-seasons.jpg",
       "series": "Nature and Spiritual Transformation",
-      "seriesKey": "nature"
+      "seriesKey": "nature",
+      "available": true
     },
     {
       "slug": "natural-cycles",
@@ -142,7 +150,8 @@
       "status": "Private Collection",
       "image": "natural-cycles.jpg",
       "series": "Nature and Spiritual Transformation",
-      "seriesKey": "nature"
+      "seriesKey": "nature",
+      "available": false
     },
     {
       "slug": "cycle-of-life",
@@ -153,7 +162,8 @@
       "status": "Private Collection",
       "image": "cycle-of-life.jpg",
       "series": "Nature and Spiritual Transformation",
-      "seriesKey": "nature"
+      "seriesKey": "nature",
+      "available": false
     },
     {
       "slug": "amar-amgalan",
@@ -164,7 +174,8 @@
       "status": "Private Collection",
       "image": "amar-amgalan.jpg",
       "series": "Nature and Spiritual Transformation",
-      "seriesKey": "nature"
+      "seriesKey": "nature",
+      "available": false
     },
     {
       "slug": "deep-flight",
@@ -175,7 +186,8 @@
       "status": "Private Collection",
       "image": "deep-flight.jpg",
       "series": "Nature and Spiritual Transformation",
-      "seriesKey": "nature"
+      "seriesKey": "nature",
+      "available": false
     },
     {
       "slug": "forest-dream",
@@ -186,7 +198,8 @@
       "status": "Private Collection",
       "image": "forest-dream.jpg",
       "series": "Nature and Spiritual Transformation",
-      "seriesKey": "nature"
+      "seriesKey": "nature",
+      "available": false
     },
     {
       "slug": "ai",
@@ -197,7 +210,8 @@
       "status": "Available",
       "image": "ai.jpg",
       "series": "Technology and Consciousness",
-      "seriesKey": "technology"
+      "seriesKey": "technology",
+      "available": true
     },
     {
       "slug": "big-data",
@@ -208,7 +222,8 @@
       "status": "Available",
       "image": "big-data.jpg",
       "series": "Technology and Consciousness",
-      "seriesKey": "technology"
+      "seriesKey": "technology",
+      "available": true
     },
     {
       "slug": "free-will-illusion",
@@ -219,7 +234,8 @@
       "status": "Available",
       "image": "free-will-illusion.jpg",
       "series": "Technology and Consciousness",
-      "seriesKey": "technology"
+      "seriesKey": "technology",
+      "available": true
     },
     {
       "slug": "beyond-reality",
@@ -230,7 +246,8 @@
       "status": "Available",
       "image": "beyond-reality.jpg",
       "series": "Existential Narratives",
-      "seriesKey": "narratives"
+      "seriesKey": "narratives",
+      "available": true
     },
     {
       "slug": "estimate",
@@ -241,7 +258,8 @@
       "status": "Available",
       "image": "estimate.jpg",
       "series": "Existential Narratives",
-      "seriesKey": "narratives"
+      "seriesKey": "narratives",
+      "available": true
     },
     {
       "slug": "spirit-of-the-wild",
@@ -252,7 +270,8 @@
       "status": "Available",
       "image": "spirit-of-the-wild.jpg",
       "series": "Digital Works and Drawings",
-      "seriesKey": "paper"
+      "seriesKey": "paper",
+      "available": true
     },
     {
       "slug": "human-pattern",
@@ -263,7 +282,8 @@
       "status": "Available",
       "image": "human-pattern.jpg",
       "series": "Digital Works and Drawings",
-      "seriesKey": "paper"
+      "seriesKey": "paper",
+      "available": true
     },
     {
       "slug": "portrait-drawing",
@@ -274,7 +294,8 @@
       "status": "Available",
       "image": "portrait-drawing.jpg",
       "series": "Digital Works and Drawings",
-      "seriesKey": "paper"
+      "seriesKey": "paper",
+      "available": true
     }
   ],
   "series": {
@@ -360,7 +381,8 @@
   },
   "modal": {
     "inquire": "Inquire About This Piece",
-    "requestPrint": "Request a Print"
+    "requestPrint": "Request a Print",
+    "inquireSold": "Ask About Similar Work"
   },
   "saatchiLabel": "Saatchi Art · Zazaa Ganbold"
 }

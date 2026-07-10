@@ -54,7 +54,8 @@
       "status": "",
       "image": "bi-ba-bid.jpg",
       "series": "Өөрийгөө танихуй ба ухамсар",
-      "seriesKey": "identity"
+      "seriesKey": "identity",
+      "available": true
     },
     {
       "slug": "dual-essence",
@@ -65,7 +66,8 @@
       "status": "Хувийн цуглуулга",
       "image": "dual-essence.jpg",
       "series": "Өөрийгөө танихуй ба ухамсар",
-      "seriesKey": "identity"
+      "seriesKey": "identity",
+      "available": false
     },
     {
       "slug": "dual-identity",
@@ -76,7 +78,8 @@
       "status": "Вьетнам дахь цуглуулга",
       "image": "dual-identity.jpg",
       "series": "Өөрийгөө танихуй ба ухамсар",
-      "seriesKey": "identity"
+      "seriesKey": "identity",
+      "available": false
     },
     {
       "slug": "observation",
@@ -87,7 +90,8 @@
       "status": "Хувийн цуглуулга",
       "image": "observation.jpg",
       "series": "Өөрийгөө танихуй ба ухамсар",
-      "seriesKey": "identity"
+      "seriesKey": "identity",
+      "available": false
     },
     {
       "slug": "sisters",
@@ -98,7 +102,8 @@
       "status": "Хувийн цуглуулга",
       "image": "sisters.jpg",
       "series": "Өөрийгөө танихуй ба ухамсар",
-      "seriesKey": "identity"
+      "seriesKey": "identity",
+      "available": false
     },
     {
       "slug": "desire-boundaries",
@@ -109,7 +114,8 @@
       "status": "Авах боломжтой",
       "image": "desire-boundaries.jpg",
       "series": "Өөрийгөө танихуй ба ухамсар",
-      "seriesKey": "identity"
+      "seriesKey": "identity",
+      "available": true
     },
     {
       "slug": "between-worlds",
@@ -120,7 +126,8 @@
       "status": "Авах боломжтой",
       "image": "between-worlds.jpg",
       "series": "Өөрийгөө танихуй ба ухамсар",
-      "seriesKey": "identity"
+      "seriesKey": "identity",
+      "available": true
     },
     {
       "slug": "four-seasons",
@@ -131,7 +138,8 @@
       "status": "Авах боломжтой",
       "image": "four-seasons.jpg",
       "series": "Байгаль ба сүнслэг өөрчлөлт",
-      "seriesKey": "nature"
+      "seriesKey": "nature",
+      "available": true
     },
     {
       "slug": "natural-cycles",
@@ -142,7 +150,8 @@
       "status": "Хувийн цуглуулга",
       "image": "natural-cycles.jpg",
       "series": "Байгаль ба сүнслэг өөрчлөлт",
-      "seriesKey": "nature"
+      "seriesKey": "nature",
+      "available": false
     },
     {
       "slug": "cycle-of-life",
@@ -153,7 +162,8 @@
       "status": "Хувийн цуглуулга",
       "image": "cycle-of-life.jpg",
       "series": "Байгаль ба сүнслэг өөрчлөлт",
-      "seriesKey": "nature"
+      "seriesKey": "nature",
+      "available": false
     },
     {
       "slug": "amar-amgalan",
@@ -164,7 +174,8 @@
       "status": "Хувийн цуглуулга",
       "image": "amar-amgalan.jpg",
       "series": "Байгаль ба сүнслэг өөрчлөлт",
-      "seriesKey": "nature"
+      "seriesKey": "nature",
+      "available": false
     },
     {
       "slug": "deep-flight",
@@ -175,7 +186,8 @@
       "status": "Хувийн цуглуулга",
       "image": "deep-flight.jpg",
       "series": "Байгаль ба сүнслэг өөрчлөлт",
-      "seriesKey": "nature"
+      "seriesKey": "nature",
+      "available": false
     },
     {
       "slug": "forest-dream",
@@ -186,7 +198,8 @@
       "status": "Хувийн цуглуулга",
       "image": "forest-dream.jpg",
       "series": "Байгаль ба сүнслэг өөрчлөлт",
-      "seriesKey": "nature"
+      "seriesKey": "nature",
+      "available": false
     },
     {
       "slug": "ai",
@@ -197,7 +210,8 @@
       "status": "Авах боломжтой",
       "image": "ai.jpg",
       "series": "Технологи ба ухамсар",
-      "seriesKey": "technology"
+      "seriesKey": "technology",
+      "available": true
     },
     {
       "slug": "big-data",
@@ -208,7 +222,8 @@
       "status": "Авах боломжтой",
       "image": "big-data.jpg",
       "series": "Технологи ба ухамсар",
-      "seriesKey": "technology"
+      "seriesKey": "technology",
+      "available": true
     },
     {
       "slug": "free-will-illusion",
@@ -219,7 +234,8 @@
       "status": "Авах боломжтой",
       "image": "free-will-illusion.jpg",
       "series": "Технологи ба ухамсар",
-      "seriesKey": "technology"
+      "seriesKey": "technology",
+      "available": true
     },
     {
       "slug": "beyond-reality",
@@ -230,7 +246,8 @@
       "status": "Авах боломжтой",
       "image": "beyond-reality.jpg",
       "series": "Оршихуйн дүрслэлийн орон зай",
-      "seriesKey": "narratives"
+      "seriesKey": "narratives",
+      "available": true
     },
     {
       "slug": "estimate",
@@ -241,7 +258,8 @@
       "status": "Авах боломжтой",
       "image": "estimate.jpg",
       "series": "Оршихуйн дүрслэлийн орон зай",
-      "seriesKey": "narratives"
+      "seriesKey": "narratives",
+      "available": true
     },
     {
       "slug": "spirit-of-the-wild",
@@ -252,7 +270,8 @@
       "status": "Авах боломжтой",
       "image": "spirit-of-the-wild.jpg",
       "series": "Дижитал бүтээл ба зураг",
-      "seriesKey": "paper"
+      "seriesKey": "paper",
+      "available": true
     },
     {
       "slug": "human-pattern",
@@ -263,7 +282,8 @@
       "status": "Авах боломжтой",
       "image": "human-pattern.jpg",
       "series": "Дижитал бүтээл ба зураг",
-      "seriesKey": "paper"
+      "seriesKey": "paper",
+      "available": true
     },
     {
       "slug": "portrait-drawing",
@@ -274,7 +294,8 @@
       "status": "Авах боломжтой",
       "image": "portrait-drawing.jpg",
       "series": "Дижитал бүтээл ба зураг",
-      "seriesKey": "paper"
+      "seriesKey": "paper",
+      "available": true
     }
   ],
   "series": {
@@ -360,7 +381,8 @@
   },
   "modal": {
     "inquire": "Энэ бүтээлийн талаар лавлах",
-    "requestPrint": "Хэвлэмэл хүсэх"
+    "requestPrint": "Хэвлэмэл хүсэх",
+    "inquireSold": "Үүнтэй төстэй бүтээлийн талаар асуух"
   },
   "saatchiLabel": "Saatchi Art · Zazaa Ganbold"
 }
