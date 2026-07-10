@@ -89,7 +89,9 @@ h2{font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:clamp(2
   .modal-next{right:6px}
 }
 .modal-info h2{font-size:42px;margin-bottom:18px}
-.modal-info p{color:var(--muted)}
+.modal-details{color:var(--muted);margin-bottom:8px}
+.modal-details p{margin:0 0 6px;font-size:16px}
+.modal-status{color:var(--accent);font-size:13px;text-transform:uppercase;letter-spacing:.1em;margin:6px 0 0}
 @media(max-width:960px){
   .site-header{padding:18px 20px;align-items:flex-start}
   .nav{gap:12px;flex-wrap:wrap;justify-content:flex-end;font-size:11px}
