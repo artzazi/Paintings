@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shop | Zazaa Ganbold</title>
-  <meta name="description" content="Limitierte Seiden- und Cashmere-Modal-Schals und Schawls mit Originalmotiven von Zazaa Ganbold.">
+  <meta name="description" content="Limitierte Seiden- und Cashmere-Modal-Schals, Schawls und Kunstdrucke von Zazaa Ganbold.">
   <link rel="canonical" href="https://zazaa.de/shop.html">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Shop | Zazaa Ganbold">
-  <meta property="og:description" content="Limitierte Seiden- und Cashmere-Modal-Schals und Schawls mit Originalmotiven von Zazaa Ganbold.">
+  <meta property="og:description" content="Limitierte Seiden- und Cashmere-Modal-Schals, Schawls und Kunstdrucke von Zazaa Ganbold.">
   <meta property="og:image" content="https://zazaa.de/bi-ba-bid.jpg">
   <meta property="og:url" content="https://zazaa.de/shop.html">
   <meta name="twitter:card" content="summary_large_image">
@@ -26,25 +26,23 @@
        "DEIN-SNIPCART-PUBLIC-API-KEY" und ersetze ihn durch deinen
        echten Public API Key aus dem Snipcart-Dashboard.
 
-    2. BILDER: Jedes .shop-panel hat aktuell eine Platzhalter-Textur
-       (siehe Kommentare "PLATZHALTER"). Ersetze den Inhalt durch
-       <img src="dein-foto.jpg" alt="..."> sobald echte Fotos da sind.
-       Lade die Fotos einfach mit hoch, z.B. persona-i.jpg,
-       metamorphose.jpg, zugvogel.jpg direkt neben index.html.
+    2. BILDER (Schals): Jedes .shop-panel hat aktuell eine
+       Platzhalter-Textur. Ersetze in shop.js (Funktion renderShop)
+       die Zeile mit class="shop-layer shop-portrait" durch ein
+       echtes <img>, sobald Fotos vorhanden sind.
 
-    3. PREISE & VARIANTEN: Passe data-item-price, data-item-id und
-       die Dropdown-Optionen an deine echten Produkte an.
+    3. PREISE, MOTIVE & TEXTE: Alles kommt jetzt aus de.json /
+       en.json / mn.json (Schlüssel "shop"). Dort Preise, Namen,
+       Beschreibungen für alle drei Sprachen anpassen.
 
-    4. DIESE SEITE IST DERZEIT NUR AUF DEUTSCH. Die Haupt-Navigation
-       deiner Seite ist mehrsprachig (EN/DE/MN) über main.js — diese
-       Shop-Seite läuft bewusst unabhängig davon, damit main.js
-       (das auf Elemente wie #worksGrid zugreift) hier nichts
-       kaputt macht. Der Sprachumschalter erscheint daher hier
-       nicht. Wenn du das später mehrsprachig willst, sag Bescheid.
+    4. DRUCKE-FORMULAR: Das Formular weiter unten ist dasselbe wie
+       vorher auf der Startseite unter "Prints & Editions" — jetzt
+       hier im Shop integriert. Netlify erkennt es über
+       name="print-request", das bleibt unverändert.
 
-    5. Diese Datei einfach als shop.html neben index.html hochladen,
-       zusammen mit scarves.css. Der Nav-Link "Shop" auf der
-       Startseite ist schon eingerichtet.
+    5. Diese Seite ist jetzt komplett dreisprachig (EN/DE/MN), wie
+       der Rest der Website. Die Sprachwahl wird zwischen den
+       Seiten gemerkt (gleicher Speicherplatz wie auf der Startseite).
     ============================================================
   -->
 
@@ -54,182 +52,97 @@
       <span>ZAZAA GANBOLD</span>
     </a>
     <nav class="nav">
-      <a href="index.html#works">Works</a>
-      <a href="index.html#series">Series</a>
-      <a href="index.html#prints">Prints</a>
-      <a href="shop.html" style="color:var(--accent)">Shop</a>
-      <a href="index.html#about">About</a>
-      <a href="index.html#exhibitions">Exhibitions</a>
-      <a href="index.html#contact">Contact</a>
+      <a href="index.html#works" data-i18n="nav.works">Works</a>
+      <a href="index.html#series" data-i18n="nav.series">Series</a>
+      <a href="shop.html" style="color:var(--accent)" data-i18n="nav.shop">Shop</a>
+      <a href="index.html#about" data-i18n="nav.about">About</a>
+      <a href="index.html#exhibitions" data-i18n="nav.exhibitions">Exhibitions</a>
+      <a href="index.html#contact" data-i18n="nav.contact">Contact</a>
+      <span class="language-switch">
+        <button data-lang="en">EN</button>
+        <button data-lang="de">DE</button>
+        <button data-lang="mn">MN</button>
+      </span>
     </nav>
   </header>
 
   <section class="shop-hero">
-    <p class="eyebrow">Limitierte Auflage · Handgefertigt</p>
-    <h1>Malerei, die man <em>trägt</em>.</h1>
-    <p>Jeder Schal ist ein direkter Druck eines Originalgemäldes — das kontrastreiche
-      Zusammenspiel aus realistisch gemalten Gesichtern und abstrakten, texturierten
-      Hintergründen, jetzt auf Seide und Cashmere-Modal. Jede Edition ist limitiert
-      und nummeriert.</p>
+    <p class="eyebrow" id="shopEyebrow"></p>
+    <h1 id="shopTitle"></h1>
+    <p id="shopText"></p>
   </section>
 
   <div class="shop-fabric-strip">
     <div>
-      <h3>Seide, 12 Momme</h3>
-      <p>Leicht, fließend, mit natürlichem Glanz. Zeigt feine Details und
-        Farbverläufe am schärfsten — ideal für die Portraitmotive.</p>
+      <h3 id="fabricTitle1"></h3>
+      <p id="fabricText1"></p>
     </div>
     <div>
-      <h3>Cashmere-Modal</h3>
-      <p>Weicher, wärmer, mit mattem Griff. Betont die texturierten,
-        abstrakten Hintergründe auf besondere Weise.</p>
+      <h3 id="fabricTitle2"></h3>
+      <p id="fabricText2"></p>
     </div>
     <div>
-      <h3>Jedes Stück nummeriert</h3>
-      <p>Kleine Auflagen, von Hand endgefertigt. Mit Echtheitszertifikat
-        und Signatur.</p>
+      <h3 id="fabricTitle3"></h3>
+      <p id="fabricText3"></p>
     </div>
   </div>
 
   <section class="shop-section">
-    <h2>Aktuelle Editionen</h2>
+    <div class="section-heading">
+      <p class="eyebrow" id="scarvesEyebrow"></p>
+      <h2 id="scarvesTitle"></h2>
+    </div>
+    <div class="shop-grid" id="shopGrid"></div>
+    <p class="shop-note" id="shopNote"></p>
+  </section>
 
-    <div class="shop-grid">
-
-      <!-- PRODUKT 1 -->
-      <article>
-        <div class="shop-panel" tabindex="0">
-          <div class="shop-layer shop-abstract"></div>
-          <div class="shop-layer shop-portrait"><!-- PLATZHALTER: hier später <img src="persona-i.jpg" alt="Persona I"> einfügen --></div>
+  <section id="prints" class="section prints-section">
+    <div class="section-heading">
+      <p class="eyebrow" data-i18n="sections.printsEyebrow">Prints &amp; Editions</p>
+      <h2 data-i18n="sections.printsTitle">Own a Piece, Framed or Unframed</h2>
+    </div>
+    <div class="prints-wrap">
+      <p class="prints-intro" data-i18n="prints.intro"></p>
+      <form class="prints-form" id="print-request-form" name="print-request" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="print-request">
+        <p class="hidden-field"><label>Don't fill this out: <input name="bot-field"></label></p>
+        <div class="form-row">
+          <label>
+            <span data-i18n="prints.formName">Name</span>
+            <input type="text" name="name" required>
+          </label>
+          <label>
+            <span data-i18n="prints.formEmail">Email</span>
+            <input type="email" name="email" required>
+          </label>
         </div>
-        <div class="shop-info">
-          <span class="kind">Schal · Maske</span>
-          <h3>Persona I</h3>
-          <p class="desc">Aus der Masken-Serie. Realistisches Portrait auf
-            strukturiertem Ockergrund.</p>
-          <div class="shop-options">
-            <select id="mat-1" onchange="updatePrice(1)">
-              <option value="silk" data-price="145" data-id="persona-i-silk">Seide — 90×90cm</option>
-              <option value="cashmere" data-price="210" data-id="persona-i-cash">Cashmere-Modal — 70×180cm</option>
-            </select>
-          </div>
-          <div class="shop-buy-row">
-            <span class="shop-price" id="price-1">145 €</span>
-            <button
-              class="snipcart-add-item shop-add"
-              id="btn-1"
-              data-item-id="persona-i-silk"
-              data-item-price="145.00"
-              data-item-url="/shop.html"
-              data-item-description="Limitierte Edition, Motiv: Persona I"
-              data-item-name="Persona I — Seidenschal"
-              data-item-image="/persona-i.jpg"
-              data-item-max-quantity="8">
-              In den Warenkorb
-            </button>
-          </div>
+        <div class="form-row">
+          <label>
+            <span data-i18n="prints.formArtwork">Artwork title</span>
+            <input type="text" name="artwork">
+          </label>
+          <label>
+            <span data-i18n="prints.formSize">Preferred size</span>
+            <input type="text" name="size">
+          </label>
         </div>
-      </article>
-
-      <!-- PRODUKT 2 -->
-      <article>
-        <div class="shop-panel" tabindex="0">
-          <div class="shop-layer shop-abstract"></div>
-          <div class="shop-layer shop-portrait"><!-- PLATZHALTER: hier später <img src="metamorphose.jpg" alt="Metamorphose"> einfügen --></div>
-        </div>
-        <div class="shop-info">
-          <span class="kind">Schawl · Schmetterling</span>
-          <h3>Metamorphose</h3>
-          <p class="desc">Schmetterlingsmotiv über abstraktem Federgrund,
-            in warmen Erdtönen.</p>
-          <div class="shop-options">
-            <select id="mat-2" onchange="updatePrice(2)">
-              <option value="silk" data-price="165" data-id="metamorphose-silk">Seide — 70×180cm</option>
-              <option value="cashmere" data-price="230" data-id="metamorphose-cash">Cashmere-Modal — 70×180cm</option>
-            </select>
-          </div>
-          <div class="shop-buy-row">
-            <span class="shop-price" id="price-2">165 €</span>
-            <button
-              class="snipcart-add-item shop-add"
-              id="btn-2"
-              data-item-id="metamorphose-silk"
-              data-item-price="165.00"
-              data-item-url="/shop.html"
-              data-item-description="Limitierte Edition, Motiv: Metamorphose"
-              data-item-name="Metamorphose — Seidenschawl"
-              data-item-image="/metamorphose.jpg"
-              data-item-max-quantity="6">
-              In den Warenkorb
-            </button>
-          </div>
-        </div>
-      </article>
-
-      <!-- PRODUKT 3 -->
-      <article>
-        <div class="shop-panel" tabindex="0">
-          <div class="shop-layer shop-abstract"></div>
-          <div class="shop-layer shop-portrait"><!-- PLATZHALTER: hier später <img src="zugvogel.jpg" alt="Zugvogel"> einfügen --></div>
-        </div>
-        <div class="shop-info">
-          <span class="kind">Schal · Vogel</span>
-          <h3>Zugvogel</h3>
-          <p class="desc">Vogelmotiv, realistisch gemalt, über einem
-            dunklen, strukturierten Nachthimmel.</p>
-          <div class="shop-options">
-            <select id="mat-3" onchange="updatePrice(3)">
-              <option value="silk" data-price="145" data-id="zugvogel-silk">Seide — 90×90cm</option>
-              <option value="cashmere" data-price="210" data-id="zugvogel-cash">Cashmere-Modal — 70×180cm</option>
-            </select>
-          </div>
-          <div class="shop-buy-row">
-            <span class="shop-price" id="price-3">145 €</span>
-            <button
-              class="snipcart-add-item shop-add"
-              id="btn-3"
-              data-item-id="zugvogel-silk"
-              data-item-price="145.00"
-              data-item-url="/shop.html"
-              data-item-description="Limitierte Edition, Motiv: Zugvogel"
-              data-item-name="Zugvogel — Seidenschal"
-              data-item-image="/zugvogel.jpg"
-              data-item-max-quantity="8">
-              In den Warenkorb
-            </button>
-          </div>
-        </div>
-      </article>
-
+        <label class="full">
+          <span data-i18n="prints.formMessage">Message</span>
+          <textarea name="message" rows="4"></textarea>
+        </label>
+        <button type="submit" class="text-link form-submit" data-i18n="prints.formSubmit">Send Request</button>
+      </form>
     </div>
   </section>
 
-  <p class="shop-note">
-    Jede Edition ist limitiert. Versandkosten werden im Warenkorb berechnet.
-    Fragen zu Maßen oder Sonderanfertigungen: <a href="mailto:info@zazaa.de">info@zazaa.de</a>
-  </p>
-
   <footer class="footer">
     <p>ZAZAA GANBOLD</p>
-    <p>Contemporary Artist</p>
+    <p id="footerArtist">Contemporary Artist</p>
     <p>Germany · Portugal · Mongolia</p>
     <p>© 2026 Zazaa Ganbold. All rights reserved.</p>
   </footer>
 
-  <script>
-    function updatePrice(n) {
-      const select = document.getElementById('mat-' + n);
-      const opt = select.options[select.selectedIndex];
-      const price = opt.getAttribute('data-price');
-      const id = opt.getAttribute('data-id');
-
-      document.getElementById('price-' + n).textContent = price + ' €';
-
-      const btn = document.getElementById('btn-' + n);
-      btn.setAttribute('data-item-id', id);
-      btn.setAttribute('data-item-price', price + '.00');
-    }
-  </script>
+  <script src="shop.js"></script>
 
   <!--
     SNIPCART EINBINDUNG

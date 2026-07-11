@@ -385,5 +385,74 @@
     "requestPrint": "Request a Print",
     "inquireSold": "Ask About Similar Work"
   },
-  "saatchiLabel": "Saatchi Art · Zazaa Ganbold"
+  "saatchiLabel": "Saatchi Art · Zazaa Ganbold",
+  "shop": {
+    "eyebrow": "Limited Edition · Handmade",
+    "titleLine1": "Art you can",
+    "titleEm": "wear",
+    "text": "Each scarf is a direct print of an original painting — the same contrast between realistically painted faces and abstract, textured backgrounds, now on silk and cashmere-modal. Every edition is limited and numbered.",
+    "fabricTitle1": "Silk, 12 Momme",
+    "fabricText1": "Light, fluid, with a natural sheen. Shows fine detail and color gradients most sharply — ideal for the portrait motifs.",
+    "fabricTitle2": "Cashmere-Modal",
+    "fabricText2": "Softer, warmer, with a matte hand. Brings out the textured, abstract backgrounds in a distinct way.",
+    "fabricTitle3": "Each piece numbered",
+    "fabricText3": "Small editions, hand-finished. Comes with a certificate of authenticity and signature.",
+    "scarvesEyebrow": "Scarves & Shawls",
+    "scarvesTitle": "Current Editions",
+    "addToCart": "Add to Cart",
+    "products": [
+      {
+        "kind": "Scarf · Mask",
+        "title": "Persona I",
+        "desc": "From the Mask series. Realistic portrait on a textured ochre ground.",
+        "materials": [
+          {
+            "id": "persona-i-silk",
+            "price": 145,
+            "label": "Silk — 90×90cm"
+          },
+          {
+            "id": "persona-i-cash",
+            "price": 210,
+            "label": "Cashmere-Modal — 70×180cm"
+          }
+        ]
+      },
+      {
+        "kind": "Shawl · Butterfly",
+        "title": "Metamorphose",
+        "desc": "Butterfly motif over an abstract feather ground, in warm earth tones.",
+        "materials": [
+          {
+            "id": "metamorphose-silk",
+            "price": 165,
+            "label": "Silk — 70×180cm"
+          },
+          {
+            "id": "metamorphose-cash",
+            "price": 230,
+            "label": "Cashmere-Modal — 70×180cm"
+          }
+        ]
+      },
+      {
+        "kind": "Scarf · Bird",
+        "title": "Zugvogel",
+        "desc": "Bird motif, realistically painted, over a dark, textured night sky.",
+        "materials": [
+          {
+            "id": "zugvogel-silk",
+            "price": 145,
+            "label": "Silk — 90×90cm"
+          },
+          {
+            "id": "zugvogel-cash",
+            "price": 210,
+            "label": "Cashmere-Modal — 70×180cm"
+          }
+        ]
+      }
+    ],
+    "note": "Every edition is limited. Shipping is calculated at checkout. Questions about sizing or custom commissions:"
+  }
 }

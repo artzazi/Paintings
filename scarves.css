@@ -56,7 +56,7 @@
 }
 .snipcart-add-item.shop-add:hover{background:var(--accent);color:#fff}
 
-.shop-note{max-width:var(--max);margin:auto;padding:0 6vw 90px;color:var(--muted);font-size:14px}
+.shop-note{margin-top:50px;color:var(--muted);font-size:14px}
 .shop-note a{border-bottom:1px solid var(--accent)}
 
 @media (max-width:960px){

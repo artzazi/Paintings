@@ -385,5 +385,74 @@
     "requestPrint": "Druck anfragen",
     "inquireSold": "Frage nach einem ähnlichen Werk"
   },
-  "saatchiLabel": "Saatchi Art · Zazaa Ganbold"
+  "saatchiLabel": "Saatchi Art · Zazaa Ganbold",
+  "shop": {
+    "eyebrow": "Limitierte Auflage · Handgefertigt",
+    "titleLine1": "Malerei, die man",
+    "titleEm": "trägt",
+    "text": "Jeder Schal ist ein direkter Druck eines Originalgemäldes — das kontrastreiche Zusammenspiel aus realistisch gemalten Gesichtern und abstrakten, texturierten Hintergründen, jetzt auf Seide und Cashmere-Modal. Jede Edition ist limitiert und nummeriert.",
+    "fabricTitle1": "Seide, 12 Momme",
+    "fabricText1": "Leicht, fließend, mit natürlichem Glanz. Zeigt feine Details und Farbverläufe am schärfsten — ideal für die Portraitmotive.",
+    "fabricTitle2": "Cashmere-Modal",
+    "fabricText2": "Weicher, wärmer, mit mattem Griff. Betont die texturierten, abstrakten Hintergründe auf besondere Weise.",
+    "fabricTitle3": "Jedes Stück nummeriert",
+    "fabricText3": "Kleine Auflagen, von Hand endgefertigt. Mit Echtheitszertifikat und Signatur.",
+    "scarvesEyebrow": "Schals & Schawls",
+    "scarvesTitle": "Aktuelle Editionen",
+    "addToCart": "In den Warenkorb",
+    "products": [
+      {
+        "kind": "Schal · Maske",
+        "title": "Persona I",
+        "desc": "Aus der Masken-Serie. Realistisches Portrait auf strukturiertem Ockergrund.",
+        "materials": [
+          {
+            "id": "persona-i-silk",
+            "price": 145,
+            "label": "Seide — 90×90cm"
+          },
+          {
+            "id": "persona-i-cash",
+            "price": 210,
+            "label": "Cashmere-Modal — 70×180cm"
+          }
+        ]
+      },
+      {
+        "kind": "Schawl · Schmetterling",
+        "title": "Metamorphose",
+        "desc": "Schmetterlingsmotiv über abstraktem Federgrund, in warmen Erdtönen.",
+        "materials": [
+          {
+            "id": "metamorphose-silk",
+            "price": 165,
+            "label": "Seide — 70×180cm"
+          },
+          {
+            "id": "metamorphose-cash",
+            "price": 230,
+            "label": "Cashmere-Modal — 70×180cm"
+          }
+        ]
+      },
+      {
+        "kind": "Schal · Vogel",
+        "title": "Zugvogel",
+        "desc": "Vogelmotiv, realistisch gemalt, über einem dunklen, strukturierten Nachthimmel.",
+        "materials": [
+          {
+            "id": "zugvogel-silk",
+            "price": 145,
+            "label": "Seide — 90×90cm"
+          },
+          {
+            "id": "zugvogel-cash",
+            "price": 210,
+            "label": "Cashmere-Modal — 70×180cm"
+          }
+        ]
+      }
+    ],
+    "note": "Jede Edition ist limitiert. Versandkosten werden im Warenkorb berechnet. Fragen zu Maßen oder Sonderanfertigungen:"
+  }
 }
