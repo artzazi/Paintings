@@ -1,0 +1,69 @@
+/* scarves.css — extends style.css, only loaded on shop.html.
+   Reuses the site's existing tokens (--bg, --text, --muted, --line, --accent)
+   defined in style.css, so nothing needs to be duplicated or kept in sync. */
+
+.shop-hero{max-width:var(--max);margin:auto;padding:70px 6vw 60px;border-bottom:1px solid var(--line)}
+.shop-hero .eyebrow{margin-bottom:18px}
+.shop-hero h1{font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:clamp(38px,6vw,72px);line-height:1.02;margin:0 0 24px;max-width:16ch}
+.shop-hero h1 em{font-style:italic;color:var(--accent)}
+.shop-hero p{font-size:clamp(17px,1.6vw,22px);max-width:640px;color:var(--muted)}
+
+.shop-fabric-strip{display:grid;grid-template-columns:repeat(3,1fr);max-width:var(--max);margin:auto;border-bottom:1px solid var(--line)}
+.shop-fabric-strip div{padding:40px 6vw;border-right:1px solid var(--line)}
+.shop-fabric-strip div:last-child{border-right:none}
+.shop-fabric-strip h3{font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:22px;margin:0 0 10px}
+.shop-fabric-strip p{color:var(--muted);font-size:15px;margin:0}
+
+.shop-section{max-width:var(--max);margin:auto;padding:90px 6vw}
+.shop-section > h2{font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:clamp(28px,4vw,48px);margin:0 0 50px}
+
+.shop-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:60px 34px}
+
+.shop-panel{position:relative;aspect-ratio:1/1;overflow:hidden;background:#eeeae3;cursor:pointer;border-radius:2px}
+.shop-panel .shop-layer{position:absolute;inset:0}
+.shop-layer.shop-abstract{
+  background:
+    radial-gradient(circle at 30% 20%, rgba(217,108,44,0.35), transparent 55%),
+    radial-gradient(circle at 75% 70%, rgba(31,31,29,0.55), transparent 60%),
+    linear-gradient(135deg,#2b2620,#1f1f1d 70%);
+}
+.shop-layer.shop-portrait{
+  background:linear-gradient(160deg,#f2ece1 0%,#d8c9ac 45%,#a08a63 100%);
+  clip-path:polygon(0 0,100% 0,100% 100%,0 100%);
+  transition:clip-path .6s cubic-bezier(.65,0,.35,1);
+}
+.shop-panel:hover .shop-layer.shop-portrait,
+.shop-panel:focus-within .shop-layer.shop-portrait{
+  clip-path:polygon(0 0,38% 0,62% 100%,0 100%);
+}
+
+.shop-info{padding-top:18px}
+.shop-info .kind{text-transform:uppercase;letter-spacing:.1em;font-size:12px;color:var(--muted);display:block;margin-bottom:8px}
+.shop-info h3{font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:22px;margin:0 0 8px;color:var(--text)}
+.shop-info .desc{font-size:14px;line-height:1.5;color:var(--muted);margin:0 0 18px}
+
+.shop-options{margin-bottom:18px}
+.shop-options select{width:100%;font-family:inherit;font-size:14px;padding:10px 4px;border:0;border-bottom:1px solid var(--line);background:transparent;color:var(--text)}
+.shop-options select:focus{outline:0;border-bottom-color:var(--accent)}
+
+.shop-buy-row{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.shop-price{font-family:Georgia,"Times New Roman",serif;font-size:19px;color:var(--text)}
+
+.snipcart-add-item.shop-add{
+  font-family:inherit;font-size:13px;text-transform:uppercase;letter-spacing:.1em;
+  background:transparent;color:var(--accent);border:1px solid var(--accent);
+  padding:11px 20px;border-radius:2px;cursor:pointer;transition:background .15s,color .15s;
+}
+.snipcart-add-item.shop-add:hover{background:var(--accent);color:#fff}
+
+.shop-note{max-width:var(--max);margin:auto;padding:0 6vw 90px;color:var(--muted);font-size:14px}
+.shop-note a{border-bottom:1px solid var(--accent)}
+
+@media (max-width:960px){
+  .shop-fabric-strip{grid-template-columns:1fr}
+  .shop-fabric-strip div{border-right:none;border-bottom:1px solid var(--line)}
+  .shop-fabric-strip div:last-child{border-bottom:none}
+  .shop-grid{grid-template-columns:1fr}
+  .shop-hero{padding:50px 20px 40px}
+  .shop-section{padding:60px 20px}
+}

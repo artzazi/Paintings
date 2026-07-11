@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop | Zazaa Ganbold</title>
+  <meta name="description" content="Limitierte Seiden- und Cashmere-Modal-Schals und Schawls mit Originalmotiven von Zazaa Ganbold.">
+  <link rel="canonical" href="https://zazaa.de/shop.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Shop | Zazaa Ganbold">
+  <meta property="og:description" content="Limitierte Seiden- und Cashmere-Modal-Schals und Schawls mit Originalmotiven von Zazaa Ganbold.">
+  <meta property="og:image" content="https://zazaa.de/bi-ba-bid.jpg">
+  <meta property="og:url" content="https://zazaa.de/shop.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="logo.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="scarves.css">
+</head>
+<body>
+
+  <!--
+    ============================================================
+    EINRICHTUNGSHINWEISE — bitte vor dem Hochladen lesen
+    ============================================================
+    1. SNIPCART API KEY: Suche unten (kurz vor </body>) nach
+       "DEIN-SNIPCART-PUBLIC-API-KEY" und ersetze ihn durch deinen
+       echten Public API Key aus dem Snipcart-Dashboard.
+
+    2. BILDER: Jedes .shop-panel hat aktuell eine Platzhalter-Textur
+       (siehe Kommentare "PLATZHALTER"). Ersetze den Inhalt durch
+       <img src="dein-foto.jpg" alt="..."> sobald echte Fotos da sind.
+       Lade die Fotos einfach mit hoch, z.B. persona-i.jpg,
+       metamorphose.jpg, zugvogel.jpg direkt neben index.html.
+
+    3. PREISE & VARIANTEN: Passe data-item-price, data-item-id und
+       die Dropdown-Optionen an deine echten Produkte an.
+
+    4. DIESE SEITE IST DERZEIT NUR AUF DEUTSCH. Die Haupt-Navigation
+       deiner Seite ist mehrsprachig (EN/DE/MN) über main.js — diese
+       Shop-Seite läuft bewusst unabhängig davon, damit main.js
+       (das auf Elemente wie #worksGrid zugreift) hier nichts
+       kaputt macht. Der Sprachumschalter erscheint daher hier
+       nicht. Wenn du das später mehrsprachig willst, sag Bescheid.
+
+    5. Diese Datei einfach als shop.html neben index.html hochladen,
+       zusammen mit scarves.css. Der Nav-Link "Shop" auf der
+       Startseite ist schon eingerichtet.
+    ============================================================
+  -->
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Zazaa Ganbold home">
+      <img src="logo.png" alt="Zazaa Ganbold logo">
+      <span>ZAZAA GANBOLD</span>
+    </a>
+    <nav class="nav">
+      <a href="index.html#works">Works</a>
+      <a href="index.html#series">Series</a>
+      <a href="index.html#prints">Prints</a>
+      <a href="shop.html" style="color:var(--accent)">Shop</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#exhibitions">Exhibitions</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="shop-hero">
+    <p class="eyebrow">Limitierte Auflage · Handgefertigt</p>
+    <h1>Malerei, die man <em>trägt</em>.</h1>
+    <p>Jeder Schal ist ein direkter Druck eines Originalgemäldes — das kontrastreiche
+      Zusammenspiel aus realistisch gemalten Gesichtern und abstrakten, texturierten
+      Hintergründen, jetzt auf Seide und Cashmere-Modal. Jede Edition ist limitiert
+      und nummeriert.</p>
+  </section>
+
+  <div class="shop-fabric-strip">
+    <div>
+      <h3>Seide, 12 Momme</h3>
+      <p>Leicht, fließend, mit natürlichem Glanz. Zeigt feine Details und
+        Farbverläufe am schärfsten — ideal für die Portraitmotive.</p>
+    </div>
+    <div>
+      <h3>Cashmere-Modal</h3>
+      <p>Weicher, wärmer, mit mattem Griff. Betont die texturierten,
+        abstrakten Hintergründe auf besondere Weise.</p>
+    </div>
+    <div>
+      <h3>Jedes Stück nummeriert</h3>
+      <p>Kleine Auflagen, von Hand endgefertigt. Mit Echtheitszertifikat
+        und Signatur.</p>
+    </div>
+  </div>
+
+  <section class="shop-section">
+    <h2>Aktuelle Editionen</h2>
+
+    <div class="shop-grid">
+
+      <!-- PRODUKT 1 -->
+      <article>
+        <div class="shop-panel" tabindex="0">
+          <div class="shop-layer shop-abstract"></div>
+          <div class="shop-layer shop-portrait"><!-- PLATZHALTER: hier später <img src="persona-i.jpg" alt="Persona I"> einfügen --></div>
+        </div>
+        <div class="shop-info">
+          <span class="kind">Schal · Maske</span>
+          <h3>Persona I</h3>
+          <p class="desc">Aus der Masken-Serie. Realistisches Portrait auf
+            strukturiertem Ockergrund.</p>
+          <div class="shop-options">
+            <select id="mat-1" onchange="updatePrice(1)">
+              <option value="silk" data-price="145" data-id="persona-i-silk">Seide — 90×90cm</option>
+              <option value="cashmere" data-price="210" data-id="persona-i-cash">Cashmere-Modal — 70×180cm</option>
+            </select>
+          </div>
+          <div class="shop-buy-row">
+            <span class="shop-price" id="price-1">145 €</span>
+            <button
+              class="snipcart-add-item shop-add"
+              id="btn-1"
+              data-item-id="persona-i-silk"
+              data-item-price="145.00"
+              data-item-url="/shop.html"
+              data-item-description="Limitierte Edition, Motiv: Persona I"
+              data-item-name="Persona I — Seidenschal"
+              data-item-image="/persona-i.jpg"
+              data-item-max-quantity="8">
+              In den Warenkorb
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- PRODUKT 2 -->
+      <article>
+        <div class="shop-panel" tabindex="0">
+          <div class="shop-layer shop-abstract"></div>
+          <div class="shop-layer shop-portrait"><!-- PLATZHALTER: hier später <img src="metamorphose.jpg" alt="Metamorphose"> einfügen --></div>
+        </div>
+        <div class="shop-info">
+          <span class="kind">Schawl · Schmetterling</span>
+          <h3>Metamorphose</h3>
+          <p class="desc">Schmetterlingsmotiv über abstraktem Federgrund,
+            in warmen Erdtönen.</p>
+          <div class="shop-options">
+            <select id="mat-2" onchange="updatePrice(2)">
+              <option value="silk" data-price="165" data-id="metamorphose-silk">Seide — 70×180cm</option>
+              <option value="cashmere" data-price="230" data-id="metamorphose-cash">Cashmere-Modal — 70×180cm</option>
+            </select>
+          </div>
+          <div class="shop-buy-row">
+            <span class="shop-price" id="price-2">165 €</span>
+            <button
+              class="snipcart-add-item shop-add"
+              id="btn-2"
+              data-item-id="metamorphose-silk"
+              data-item-price="165.00"
+              data-item-url="/shop.html"
+              data-item-description="Limitierte Edition, Motiv: Metamorphose"
+              data-item-name="Metamorphose — Seidenschawl"
+              data-item-image="/metamorphose.jpg"
+              data-item-max-quantity="6">
+              In den Warenkorb
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- PRODUKT 3 -->
+      <article>
+        <div class="shop-panel" tabindex="0">
+          <div class="shop-layer shop-abstract"></div>
+          <div class="shop-layer shop-portrait"><!-- PLATZHALTER: hier später <img src="zugvogel.jpg" alt="Zugvogel"> einfügen --></div>
+        </div>
+        <div class="shop-info">
+          <span class="kind">Schal · Vogel</span>
+          <h3>Zugvogel</h3>
+          <p class="desc">Vogelmotiv, realistisch gemalt, über einem
+            dunklen, strukturierten Nachthimmel.</p>
+          <div class="shop-options">
+            <select id="mat-3" onchange="updatePrice(3)">
+              <option value="silk" data-price="145" data-id="zugvogel-silk">Seide — 90×90cm</option>
+              <option value="cashmere" data-price="210" data-id="zugvogel-cash">Cashmere-Modal — 70×180cm</option>
+            </select>
+          </div>
+          <div class="shop-buy-row">
+            <span class="shop-price" id="price-3">145 €</span>
+            <button
+              class="snipcart-add-item shop-add"
+              id="btn-3"
+              data-item-id="zugvogel-silk"
+              data-item-price="145.00"
+              data-item-url="/shop.html"
+              data-item-description="Limitierte Edition, Motiv: Zugvogel"
+              data-item-name="Zugvogel — Seidenschal"
+              data-item-image="/zugvogel.jpg"
+              data-item-max-quantity="8">
+              In den Warenkorb
+            </button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <p class="shop-note">
+    Jede Edition ist limitiert. Versandkosten werden im Warenkorb berechnet.
+    Fragen zu Maßen oder Sonderanfertigungen: <a href="mailto:info@zazaa.de">info@zazaa.de</a>
+  </p>
+
+  <footer class="footer">
+    <p>ZAZAA GANBOLD</p>
+    <p>Contemporary Artist</p>
+    <p>Germany · Portugal · Mongolia</p>
+    <p>© 2026 Zazaa Ganbold. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function updatePrice(n) {
+      const select = document.getElementById('mat-' + n);
+      const opt = select.options[select.selectedIndex];
+      const price = opt.getAttribute('data-price');
+      const id = opt.getAttribute('data-id');
+
+      document.getElementById('price-' + n).textContent = price + ' €';
+
+      const btn = document.getElementById('btn-' + n);
+      btn.setAttribute('data-item-id', id);
+      btn.setAttribute('data-item-price', price + '.00');
+    }
+  </script>
+
+  <!--
+    SNIPCART EINBINDUNG
+    Ersetze "DEIN-SNIPCART-PUBLIC-API-KEY" mit deinem echten
+    Public API Key (Snipcart Dashboard > Store Settings > API Keys).
+  -->
+  <div hidden id="snipcart" data-api-key="DEIN-SNIPCART-PUBLIC-API-KEY" data-config-modal-style="side"></div>
+  <script async src="https://cdn.snipcart.com/themes/v3.7.3/default/snipcart.js"></script>
+  <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.7.3/default/snipcart.css" />
+
+</body>
+</html>
