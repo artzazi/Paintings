@@ -32,7 +32,6 @@ function renderLanguage(){
 
   document.getElementById('footerArtist').textContent = currentContent.footerArtist;
   renderWorks();
-  renderSeries();
   renderAbout();
   renderExhibitions();
   renderEducation();
@@ -55,14 +54,6 @@ function renderWorks(){
       </div>
     </article>
   `).join('');
-}
-
-function renderSeries(){
-  const grid = document.getElementById('seriesGrid');
-  grid.innerHTML = Object.entries(currentContent.series).map(([key, name]) => {
-    const titles = currentContent.works.filter(work => work.seriesKey === key).slice(0,5).map(work => work.title).join(', ');
-    return `<article><h3>${name}</h3><p>${titles}</p></article>`;
-  }).join('');
 }
 
 function renderAbout(){
